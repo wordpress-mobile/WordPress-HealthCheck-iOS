@@ -9,23 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = "HealthCheck"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HealthCheck."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "Health check for common iOS problems."
   s.description      = <<-DESC
+                        Health check for common iOS problems. Like failures to connect to the XML-RPC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HealthCheck"
+  s.homepage         = "https://github.com/wordpress-mobile/WordPress-HealthCheck-iOS"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Sérgio Estêvão" => "sergio.estevao@automattic.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HealthCheck.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.license          = 'GPLv2'
+  s.author           = { "Automattic" => "mobile@automattic.com", "Diego Rey Mendez" => "diego.rey.mendez@automattic.com", "Sérgio Estêvão" => "sergio.estevao@automattic.com" }
+  s.source           = { :git => "https://github.com/wordpress-mobile/WordPress-HealthCheck-iOS.git", :tag => s.version.to_s }
+  s.social_media_url = 'http://twitter.com/WordPressiOS'
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
