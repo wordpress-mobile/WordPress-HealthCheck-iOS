@@ -1,0 +1,14 @@
+PODS:
+  - HealthCheck (0.1.0)
+
+DEPENDENCIES:
+  - HealthCheck (from `../`)
+
+EXTERNAL SOURCES:
+  HealthCheck:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HealthCheck: 8d84336589f909e87414a124a1b34d954d3ba15e
+
+COCOAPODS: 0.39.0

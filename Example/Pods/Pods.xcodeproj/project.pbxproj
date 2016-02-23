@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F4F5872FCB1170709BB7E1D7E4D6A9A /* Pods-HealthCheck_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A7FE41A9D0FEA08CA0B02E402FFBA9 /* Pods-HealthCheck_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EA16781248A60965CE1614860DD204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4D005EBA1A7433026AE0B3468C28E804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5DC8E2B98FA6E5D734814D93923676D5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F3BC20A481028CC18C46AD80DA02A /* ReplaceMe.swift */; };
+		70B8BCB367C554B430CBE9008010758C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7839AF5552380619CD9ABF5C04D70DF6 /* Pods-HealthCheck_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F667BE2FF420F464317BB9FCABC15B /* Pods-HealthCheck_Example-dummy.m */; };
+		87B216903DD59ABD7FFC7A9F63B99875 /* Pods-HealthCheck_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC29149A42767070EFE1C2DE3E250A /* Pods-HealthCheck_Tests-dummy.m */; };
+		C6C7C7917225277969E7AE6387BBB0D1 /* HealthCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E833A0E696A046B5CBC29045CB58F39 /* HealthCheck-dummy.m */; };
+		CB86FE8779839BD992C7C06A0F88D4BC /* HealthCheck.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BED6DEC918D6889DB5F77C6C92929EA /* HealthCheck.bundle */; };
+		D8DCD869FE52E627C49D225F319AF2D1 /* HealthCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9017E84D30013288F5CBAE1031C3120D /* HealthCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F572795F13F78D3812B32138183165 /* Pods-HealthCheck_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EA5D69400F4EA375B627E389455810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D608F3D7D6B3EB97BB8F4AD6805788;
+			remoteInfo = "HealthCheck-HealthCheck";
+		};
+		CCA41F2440D28569D05C10378FA0C698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145E5CD5FA427039FE8FD64DE9040B26;
+			remoteInfo = HealthCheck;
+		};
+		F7ACDC37C1E1B18183ADF6537A71F3A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145E5CD5FA427039FE8FD64DE9040B26;
+			remoteInfo = HealthCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F667BE2FF420F464317BB9FCABC15B /* Pods-HealthCheck_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthCheck_Example-dummy.m"; sourceTree = "<group>"; };
+		07D2ADC38A346712C225D589633FE865 /* HealthCheck.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HealthCheck.modulemap; sourceTree = "<group>"; };
+		0D277DF68FF6137EBE1F92C1353CC04F /* Pods-HealthCheck_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthCheck_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E833A0E696A046B5CBC29045CB58F39 /* HealthCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthCheck-dummy.m"; sourceTree = "<group>"; };
+		20A7FE41A9D0FEA08CA0B02E402FFBA9 /* Pods-HealthCheck_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthCheck_Example-umbrella.h"; sourceTree = "<group>"; };
+		29CD379D8325DE487A6D60B1F5424F0F /* Pods_HealthCheck_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D36DFDEE7C205BB8610BF0548C25660 /* Pods-HealthCheck_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2D398B69C6D0039B5EF981DDC700565B /* Pods_HealthCheck_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B23D7D658AE028D2382753A0024F340 /* Pods-HealthCheck_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Example-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4517A559DC66ECD4D40BBC28D31AAD52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463B77A1BEED8A2F498DFCED78E4CD61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BB70054C7B7B70592D2A9B2944147A /* Pods-HealthCheck_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57AC1F1DF3253135E7C8736CF4E38D2F /* Pods-HealthCheck_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthCheck_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6BED6DEC918D6889DB5F77C6C92929EA /* HealthCheck.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthCheck.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3E13DFB1B3F1B7E03DF14076761B06 /* Pods-HealthCheck_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthCheck_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D8D92500EE848D6A971C8377D70BD8B /* Pods-HealthCheck_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HealthCheck_Tests.modulemap"; sourceTree = "<group>"; };
+		9017E84D30013288F5CBAE1031C3120D /* HealthCheck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthCheck-umbrella.h"; sourceTree = "<group>"; };
+		9236A6DD34D7E27C52B48D993751E6ED /* Pods-HealthCheck_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthCheck_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95D90D60DB7F8E8EEFD671FEC0DB3730 /* Pods-HealthCheck_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A250DA013CFDEA78C352E295BFA9690 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB14FED01D482144725A016AB00D746 /* Pods-HealthCheck_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthCheck_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B23F3BC20A481028CC18C46AD80DA02A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthCheck.xcconfig; sourceTree = "<group>"; };
+		CC9601DD70493E33D5343932379FFA65 /* Pods-HealthCheck_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Tests-resources.sh"; sourceTree = "<group>"; };
+		D177C2BB89C3DA63FF3D9CF6298C249E /* HealthCheck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthCheck-prefix.pch"; sourceTree = "<group>"; };
+		DB6A3BDC34B3EAC6064D9C224518AA6E /* Pods-HealthCheck_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E4EC29149A42767070EFE1C2DE3E250A /* Pods-HealthCheck_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthCheck_Tests-dummy.m"; sourceTree = "<group>"; };
+		E6B53FC87CC7BC478C06DC147D131E42 /* HealthCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HealthCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED200C906D605976AFBE5B5A8AD78E28 /* Pods-HealthCheck_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F080EB1376A9242645A2782DC40B22EA /* Pods-HealthCheck_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HealthCheck_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA09F400B80A04F134CB218A984081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EA16781248A60965CE1614860DD204 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93534F03B6894C1ADF321DC0E68F1784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4464472A7A46B086E11457C0D16A34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D005EBA1A7433026AE0B3468C28E804 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BE827A97F051C36D7309EC8DA323F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B8BCB367C554B430CBE9008010758C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C525C6D56C9F83BB275455F53E183F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E19F08DBBE9D704AF1430798FD4C309A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		24BD30BFBD6E72FFD55DFBAD7EC66189 /* Pods-HealthCheck_Example */ = {
+			isa = PBXGroup;
+			children = (
+				463B77A1BEED8A2F498DFCED78E4CD61 /* Info.plist */,
+				F080EB1376A9242645A2782DC40B22EA /* Pods-HealthCheck_Example.modulemap */,
+				6C3E13DFB1B3F1B7E03DF14076761B06 /* Pods-HealthCheck_Example-acknowledgements.markdown */,
+				9FB14FED01D482144725A016AB00D746 /* Pods-HealthCheck_Example-acknowledgements.plist */,
+				00F667BE2FF420F464317BB9FCABC15B /* Pods-HealthCheck_Example-dummy.m */,
+				46BB70054C7B7B70592D2A9B2944147A /* Pods-HealthCheck_Example-frameworks.sh */,
+				3B23D7D658AE028D2382753A0024F340 /* Pods-HealthCheck_Example-resources.sh */,
+				20A7FE41A9D0FEA08CA0B02E402FFBA9 /* Pods-HealthCheck_Example-umbrella.h */,
+				DB6A3BDC34B3EAC6064D9C224518AA6E /* Pods-HealthCheck_Example.debug.xcconfig */,
+				95D90D60DB7F8E8EEFD671FEC0DB3730 /* Pods-HealthCheck_Example.release.xcconfig */,
+			);
+			name = "Pods-HealthCheck_Example";
+			path = "Target Support Files/Pods-HealthCheck_Example";
+			sourceTree = "<group>";
+		};
+		41019BBA9A67B75DE05357F6CBB2FA13 /* HealthCheck */ = {
+			isa = PBXGroup;
+			children = (
+				03C525C6D56C9F83BB275455F53E183F /* Pod */,
+				692ACD03A0650CF3D439284F15A668A2 /* Support Files */,
+			);
+			name = HealthCheck;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		52E900A287E4B95102197CDBC5B834C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24BD30BFBD6E72FFD55DFBAD7EC66189 /* Pods-HealthCheck_Example */,
+				69C62EA9D256F8459E4B879D89E79B4E /* Pods-HealthCheck_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		692ACD03A0650CF3D439284F15A668A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D2ADC38A346712C225D589633FE865 /* HealthCheck.modulemap */,
+				C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */,
+				0E833A0E696A046B5CBC29045CB58F39 /* HealthCheck-dummy.m */,
+				D177C2BB89C3DA63FF3D9CF6298C249E /* HealthCheck-prefix.pch */,
+				9017E84D30013288F5CBAE1031C3120D /* HealthCheck-umbrella.h */,
+				4517A559DC66ECD4D40BBC28D31AAD52 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HealthCheck";
+			sourceTree = "<group>";
+		};
+		69C62EA9D256F8459E4B879D89E79B4E /* Pods-HealthCheck_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9A250DA013CFDEA78C352E295BFA9690 /* Info.plist */,
+				6D8D92500EE848D6A971C8377D70BD8B /* Pods-HealthCheck_Tests.modulemap */,
+				0D277DF68FF6137EBE1F92C1353CC04F /* Pods-HealthCheck_Tests-acknowledgements.markdown */,
+				9236A6DD34D7E27C52B48D993751E6ED /* Pods-HealthCheck_Tests-acknowledgements.plist */,
+				E4EC29149A42767070EFE1C2DE3E250A /* Pods-HealthCheck_Tests-dummy.m */,
+				2D36DFDEE7C205BB8610BF0548C25660 /* Pods-HealthCheck_Tests-frameworks.sh */,
+				CC9601DD70493E33D5343932379FFA65 /* Pods-HealthCheck_Tests-resources.sh */,
+				5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */,
+				ED200C906D605976AFBE5B5A8AD78E28 /* Pods-HealthCheck_Tests.debug.xcconfig */,
+				57AC1F1DF3253135E7C8736CF4E38D2F /* Pods-HealthCheck_Tests.release.xcconfig */,
+			);
+			name = "Pods-HealthCheck_Tests";
+			path = "Target Support Files/Pods-HealthCheck_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F6AFA56BFA049476EA0614788C8C3264 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9BCE669E73AB6EBFD40180DBE3113719 /* Products */,
+				52E900A287E4B95102197CDBC5B834C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCE669E73AB6EBFD40180DBE3113719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BED6DEC918D6889DB5F77C6C92929EA /* HealthCheck.bundle */,
+				E6B53FC87CC7BC478C06DC147D131E42 /* HealthCheck.framework */,
+				2D398B69C6D0039B5EF981DDC700565B /* Pods_HealthCheck_Example.framework */,
+				29CD379D8325DE487A6D60B1F5424F0F /* Pods_HealthCheck_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E19F08DBBE9D704AF1430798FD4C309A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B23F3BC20A481028CC18C46AD80DA02A /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F6AFA56BFA049476EA0614788C8C3264 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41019BBA9A67B75DE05357F6CBB2FA13 /* HealthCheck */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CE08D8C1E2735824FBEED203D65EE35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4F5872FCB1170709BB7E1D7E4D6A9A /* Pods-HealthCheck_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC231DBB14F4FCAA33957180ECD5DD85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F572795F13F78D3812B32138183165 /* Pods-HealthCheck_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D751ADA14955DAFE1F59328B78DDD11D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DCD869FE52E627C49D225F319AF2D1 /* HealthCheck-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		145E5CD5FA427039FE8FD64DE9040B26 /* HealthCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869F1E155497E773FFBA47627862F8D1 /* Build configuration list for PBXNativeTarget "HealthCheck" */;
+			buildPhases = (
+				AF7A89847578D4CE486CF76CD6B8E9C9 /* Sources */,
+				E9BE827A97F051C36D7309EC8DA323F9 /* Frameworks */,
+				6C16C03C27553D19930320EF5B211DEB /* Resources */,
+				D751ADA14955DAFE1F59328B78DDD11D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D513D35449AE3EA581D04E92F83ABC /* PBXTargetDependency */,
+			);
+			name = HealthCheck;
+			productName = HealthCheck;
+			productReference = E6B53FC87CC7BC478C06DC147D131E42 /* HealthCheck.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0D608F3D7D6B3EB97BB8F4AD6805788 /* HealthCheck-HealthCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA8168B65C1CD921ECADFBEADE23D50 /* Build configuration list for PBXNativeTarget "HealthCheck-HealthCheck" */;
+			buildPhases = (
+				97A70C44799A088BA6630F5BCFD3794E /* Sources */,
+				93534F03B6894C1ADF321DC0E68F1784 /* Frameworks */,
+				2397036B2E8EC482AF0F8A31A8E09B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HealthCheck-HealthCheck";
+			productName = "HealthCheck-HealthCheck";
+			productReference = 6BED6DEC918D6889DB5F77C6C92929EA /* HealthCheck.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C4CB143F6A63CDBFBB29FE5D17897D8A /* Pods-HealthCheck_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1E3FAACB88BD15F4C631ADDE297986 /* Build configuration list for PBXNativeTarget "Pods-HealthCheck_Tests" */;
+			buildPhases = (
+				E4E27512589837CBB648D29C07D6D234 /* Sources */,
+				D4464472A7A46B086E11457C0D16A34E /* Frameworks */,
+				CC231DBB14F4FCAA33957180ECD5DD85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F68A080C8C69F54CCA2D958375B8A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthCheck_Tests";
+			productName = "Pods-HealthCheck_Tests";
+			productReference = 29CD379D8325DE487A6D60B1F5424F0F /* Pods_HealthCheck_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E39AEC96D77DB9E2AB0299A8CF3BF729 /* Pods-HealthCheck_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7062DCDB1B166A702B4282E3F54339 /* Build configuration list for PBXNativeTarget "Pods-HealthCheck_Example" */;
+			buildPhases = (
+				3C679774D060F8808E122FAD661C1E4C /* Sources */,
+				1DA09F400B80A04F134CB218A984081C /* Frameworks */,
+				1CE08D8C1E2735824FBEED203D65EE35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924AE449B66CDCEB2D525095D6DF9810 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthCheck_Example";
+			productName = "Pods-HealthCheck_Example";
+			productReference = 2D398B69C6D0039B5EF981DDC700565B /* Pods_HealthCheck_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9BCE669E73AB6EBFD40180DBE3113719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				145E5CD5FA427039FE8FD64DE9040B26 /* HealthCheck */,
+				B0D608F3D7D6B3EB97BB8F4AD6805788 /* HealthCheck-HealthCheck */,
+				E39AEC96D77DB9E2AB0299A8CF3BF729 /* Pods-HealthCheck_Example */,
+				C4CB143F6A63CDBFBB29FE5D17897D8A /* Pods-HealthCheck_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2397036B2E8EC482AF0F8A31A8E09B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C16C03C27553D19930320EF5B211DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB86FE8779839BD992C7C06A0F88D4BC /* HealthCheck.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C679774D060F8808E122FAD661C1E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7839AF5552380619CD9ABF5C04D70DF6 /* Pods-HealthCheck_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A70C44799A088BA6630F5BCFD3794E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7A89847578D4CE486CF76CD6B8E9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C7C7917225277969E7AE6387BBB0D1 /* HealthCheck-dummy.m in Sources */,
+				5DC8E2B98FA6E5D734814D93923676D5 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E27512589837CBB648D29C07D6D234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B216903DD59ABD7FFC7A9F63B99875 /* Pods-HealthCheck_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24D513D35449AE3EA581D04E92F83ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HealthCheck-HealthCheck";
+			target = B0D608F3D7D6B3EB97BB8F4AD6805788 /* HealthCheck-HealthCheck */;
+			targetProxy = B2EA5D69400F4EA375B627E389455810 /* PBXContainerItemProxy */;
+		};
+		924AE449B66CDCEB2D525095D6DF9810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HealthCheck;
+			target = 145E5CD5FA427039FE8FD64DE9040B26 /* HealthCheck */;
+			targetProxy = F7ACDC37C1E1B18183ADF6537A71F3A0 /* PBXContainerItemProxy */;
+		};
+		E6F68A080C8C69F54CCA2D958375B8A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HealthCheck;
+			target = 145E5CD5FA427039FE8FD64DE9040B26 /* HealthCheck */;
+			targetProxy = CCA41F2440D28569D05C10378FA0C698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C7306BDFA77A3B87F4AEE3BB3E74C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6A3BDC34B3EAC6064D9C224518AA6E /* Pods-HealthCheck_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthCheck_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthCheck_Example/Pods-HealthCheck_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HealthCheck_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		269BD855A7AC3C764F5B45AC414FF7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AC1F1DF3253135E7C8736CF4E38D2F /* Pods-HealthCheck_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthCheck_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthCheck_Tests/Pods-HealthCheck_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HealthCheck_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6675E379EDEE48CAB62A0966574D26B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED200C906D605976AFBE5B5A8AD78E28 /* Pods-HealthCheck_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthCheck_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthCheck_Tests/Pods-HealthCheck_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HealthCheck_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E4F2FA35E7D27DFCF2970DD238C6D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HealthCheck/HealthCheck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HealthCheck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HealthCheck/HealthCheck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HealthCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E0E161DFE348569821B95D311BC44B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HealthCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DBA92BFC77203E2237A8D12E5AE4C3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HealthCheck/HealthCheck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HealthCheck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HealthCheck/HealthCheck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HealthCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDCB23AC0FE692810C2ADCBED293319A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D90D60DB7F8E8EEFD671FEC0DB3730 /* Pods-HealthCheck_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthCheck_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthCheck_Example/Pods-HealthCheck_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HealthCheck_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F35CEFFA587470313DC55E2EB1B5B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HealthCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869F1E155497E773FFBA47627862F8D1 /* Build configuration list for PBXNativeTarget "HealthCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E4F2FA35E7D27DFCF2970DD238C6D99 /* Debug */,
+				DBA92BFC77203E2237A8D12E5AE4C3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7062DCDB1B166A702B4282E3F54339 /* Build configuration list for PBXNativeTarget "Pods-HealthCheck_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C7306BDFA77A3B87F4AEE3BB3E74C9 /* Debug */,
+				DDCB23AC0FE692810C2ADCBED293319A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA8168B65C1CD921ECADFBEADE23D50 /* Build configuration list for PBXNativeTarget "HealthCheck-HealthCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35CEFFA587470313DC55E2EB1B5B16F /* Debug */,
+				8E0E161DFE348569821B95D311BC44B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1E3FAACB88BD15F4C631ADDE297986 /* Build configuration list for PBXNativeTarget "Pods-HealthCheck_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6675E379EDEE48CAB62A0966574D26B9 /* Debug */,
+				269BD855A7AC3C764F5B45AC414FF7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
