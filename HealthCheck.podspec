@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author           = { "Automattic" => "mobile@automattic.com", "Diego Rey Mendez" => "diego.rey.mendez@automattic.com", "Sérgio Estêvão" => "sergio.estevao@automattic.com" }
   s.source           = { :git => "https://github.com/wordpress-mobile/WordPress-HealthCheck-iOS.git", :tag => s.version.to_s }
   s.social_media_url = 'http://twitter.com/WordPressiOS'
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

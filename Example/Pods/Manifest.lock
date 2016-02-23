@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HealthCheck: 8d84336589f909e87414a124a1b34d954d3ba15e
+  HealthCheck: cea3fbb085984ca2025218d2f1cdca4b15ac285a
 
 COCOAPODS: 0.39.0

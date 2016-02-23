@@ -12,6 +12,8 @@ class TestGroup {
     ///
     //typealias Result = (success: Bool, errorDescription: String?) -> ()
     
+    /// The tests in this group.
+    ///
     let tests : [Test]
     
     /// The progress object for when tests are being run.
@@ -20,6 +22,10 @@ class TestGroup {
     
     init(tests : [Test]) {
         self.tests = tests
+        
+        for test in tests {
+            progress.addChild(test.progress(), withPendingUnitCount: 1)
+        }
     }
     
     // MARK: - Running & resetting
@@ -28,7 +34,6 @@ class TestGroup {
     ///
     func runAll() {
         for test in tests {
-            
             let result = {(test: Test, success: Bool) -> () in
             }
             
