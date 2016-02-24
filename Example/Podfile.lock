@@ -1,5 +1,7 @@
 PODS:
-  - HealthCheck (0.1.0)
+  - HealthCheck (0.1.0):
+    - wpxmlrpc
+  - wpxmlrpc (0.8.1)
 
 DEPENDENCIES:
   - HealthCheck (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HealthCheck: cea3fbb085984ca2025218d2f1cdca4b15ac285a
+  HealthCheck: 387204ebc2ae69f9a52905ee1a92df3b8674928b
+  wpxmlrpc: bd391dab54e9bdceb5d1de23d161ecf1ba80f0e0
 
 COCOAPODS: 0.39.0

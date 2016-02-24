@@ -1,6 +1,0 @@
-framework module HealthCheck {
-  umbrella header "HealthCheck-umbrella.h"
-
-  export *
-  module * { export * }
-}
