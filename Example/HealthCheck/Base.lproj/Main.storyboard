@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="587" y="254"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Tests View Controller-->
         <scene sceneID="C3b-Rf-pjG">
             <objects>
-                <tableViewController id="PDV-oO-UOM" sceneMemberID="viewController">
+                <tableViewController id="PDV-oO-UOM" customClass="TestsViewController" customModule="HealthCheck_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="8jH-hz-JwU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
