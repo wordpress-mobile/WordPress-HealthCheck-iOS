@@ -55,7 +55,8 @@ class XMLRPCSession
 
     func requestArray(method:XMLRPCFunctions, success: RequestArraySuccess, failure: RequestFailure) {
         httpSession.request(.POST,
-            path: "xmlrpc.php",
+            path: "/xmlrpc.php",
+            parameters: [String:AnyObject](),
             parameterEncoding:.XMLRPC(method.rawValue),
             deserializer: XMLRPCToArrayConverter(),
             success: { (output) -> () in
