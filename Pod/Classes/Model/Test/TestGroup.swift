@@ -1,6 +1,6 @@
 import Foundation
 
-class TestGroup {
+public class TestGroup {
 
     /// The result block for running all tests.
     ///
@@ -10,15 +10,20 @@ class TestGroup {
     ///         and localized description of the errors found in the tests run, and a proposed
     ///         solution on how to fix those errors.
     ///
-    typealias GroupCompletionHandler = (success: Bool) -> ()
+    public typealias GroupCompletionHandler = (success: Bool) -> ()
 
     /// The tests in this group.
     ///
-    let tests: [Test]
+    public let tests: [Test]
+    
+    /// The test group name
+    ///
+    public let name: String
     
     /// Default initializer
     ///
-    init(tests : [Test]) {
+    public init(name: String, tests : [Test]) {
+        self.name = name
         self.tests = tests
     }
     
@@ -30,7 +35,7 @@ class TestGroup {
     ///     - onTestComplete: will be executed once for every test in the group.
     ///     - onGroupCmplete: will be executed on time, once all tests in the group have executed.
     ///
-    func runAll(
+    public func runAll(
         onTestComplete: TestCompletionHandler,
         onGroupComplete: GroupCompletionHandler) {
         
@@ -59,7 +64,7 @@ class TestGroup {
     
     /// Resets the results of all tests in this group.
     ///
-    func resetResults() {
+    public func resetResults() {
         for test in tests {
             test.result = nil
         }

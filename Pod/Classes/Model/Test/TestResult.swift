@@ -1,6 +1,6 @@
 /// Stores information about a test result.
 ///
-class TestResult {
+public class TestResult {
     
     let error: Error?
     let test: Test
@@ -13,7 +13,7 @@ class TestResult {
     }
 }
 
-extension TestResult {
+public extension TestResult {
     /// This class is used to describe errors in detail.  It contains information that's ready for
     /// user consumption and for generating reports for bug reports.
     ///

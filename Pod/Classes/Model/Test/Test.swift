@@ -8,11 +8,11 @@ import Foundation
 ///     - success: whether the test failed or succeeded.  More information can be obtained from the
 ///         `result` property.
 ///
-typealias TestCompletionHandler = (test: Test, success: Bool) -> ()
+public typealias TestCompletionHandler = (test: Test, success: Bool) -> ()
 
 /// Defined a single test object.
 ///
-protocol Test : AnyObject {
+public protocol Test : AnyObject {
 
     // MARK: - Test information
 
