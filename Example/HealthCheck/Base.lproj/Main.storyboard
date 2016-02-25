@@ -50,6 +50,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="startTouchUpInside" destination="vXZ-lx-hvc" eventType="touchUpInside" id="U14-1i-ckk"/>
                                     <segue destination="PDV-oO-UOM" kind="show" id="FWA-rK-bcL"/>
                                 </connections>
                             </button>

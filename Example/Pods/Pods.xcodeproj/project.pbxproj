@@ -7,88 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B5E530DF8796312C435337D2F69549A /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A78F7FBEF2C7A00597EE626485BAC /* ParameterEncoding.swift */; };
-		0F24ADAC5C84BC430709AD2916EDA7F2 /* wpxmlrpc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D11140173BA4136FF55818C461A9883 /* wpxmlrpc-dummy.m */; };
-		18D20A5E32F280B8BFBBD15BADA23EFC /* HealthCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9017E84D30013288F5CBAE1031C3120D /* HealthCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E17BC5254F2A0F7E4974842C77A0602 /* WPXMLRPCDecoderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4428C9F4FD78A5C85878BE59CF3215E9 /* WPXMLRPCDecoderDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		33FB4DB39FB04EAB95D91C1E9F5901E2 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78920E0C59A3664BF682B7D4BDD9C9D1 /* Test.swift */; };
-		34E9149C99A72B550378E569D8489B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
-		3F1DEDD4745750B7EC5A9950AA0DAD8D /* WPXMLRPCDataCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE90505A824A7924593F7609A1A4C9F /* WPXMLRPCDataCleaner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		425DE1A907E216B80B03A2C25824746C /* HealthCheck.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CC605B421D599E8239F25A6475D1E /* HealthCheck.bundle */; };
-		45D1C642B63C374234FB39FB80414F2E /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82137B4DD02D6353672E87846C11A7FF /* TestResult.swift */; };
-		47AE3539F7EF2D65888D41D42405D940 /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE513DAFA1ED65DBEF9EC7F79465D098 /* HTTPSession.swift */; };
+		03C6D0299E2FB888C7163CF4DC4DEF02 /* HealthCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E833A0E696A046B5CBC29045CB58F39 /* HealthCheck-dummy.m */; };
+		0F856CC6D049D272498FA185A82D7534 /* WPStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA6346F3AE8ECE6119B279D2F079808 /* WPStringUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12242EC573FB1C33B9E00E694564AA50 /* HealthCheck.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CC605B421D599E8239F25A6475D1E /* HealthCheck.bundle */; };
+		145622122DDFD79272C647CC375304D6 /* WPBase64Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DBE824F96A320252FC0E506EB32E52 /* WPBase64Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19E779C1E2853E7A3EBF728BB5F60360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
+		21503FDECFB005B82BDBA846135BD0A8 /* XMLRPCParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99961F184889DE034F4D36EBF07230D6 /* XMLRPCParserErrors.swift */; };
+		2F966B994C419D204AFA0C717F0C1066 /* WPXMLRPCDataCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE90505A824A7924593F7609A1A4C9F /* WPXMLRPCDataCleaner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30A0C0895D4FCCED80C9719394706CED /* wpxmlrpc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B710C05FB580B1A5AEDC197794B39C /* wpxmlrpc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EFBFDBD76F59DDC592457A59A20981 /* WPXMLRPCDecoderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4191383FF920D4FAF2AE08D5EFD517E /* WPXMLRPCDecoderDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CF3D3EF6C6D5E1E60E7055EEF287771 /* WPXMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829869EDC78D6C610AAB54D58DFC5FF /* WPXMLRPCDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4D5E6575D465968B3C6B334B45110257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
-		51B4F6B307E16D3798027B46B1489D66 /* WPXMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829869EDC78D6C610AAB54D58DFC5FF /* WPXMLRPCDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		61EFBA8940DD848A6B1E5A87B9C13ED0 /* WPStringUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA6346F3AE8ECE6119B279D2F079808 /* WPStringUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D2E3B0499369B2DAB8C5E402D89EFAC /* WPBase64Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 808C61DD4A75B48980805E8186D094DF /* WPBase64Utils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7EED833C8DB74CB5BC9BA3F4C784317C /* WPBase64Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DBE824F96A320252FC0E506EB32E52 /* WPBase64Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		520C19C6DDA40BA57D22854F03C0A0F8 /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66710F6AB3EDEF23FC7C2A61009DB264 /* TestResult.swift */; };
+		5ABDF5C53003A4906A65C5E8AEA773D3 /* WPXMLRPCEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE80B2B9B9AEF68A260FA54940F0B4DA /* WPXMLRPCEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C7EEFC54BD72BA587B19888B0C6CAC /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390241936CB9232A7E9F59333573E9D7 /* LoginInfo.swift */; };
+		6985428A5B61AA0D8EDDABCF78CEBDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
+		70B145E8B58272DEF7839C1533C803CF /* WPXMLRPCDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCBD3B361E565FBAA50567277C2368 /* WPXMLRPCDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DBD5609D0D40748FB2B6603B304509 /* WPStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21ADF8C3E3147B2B6218AE47535679 /* WPStringUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		712725AB0A209AB336EF1D642286AB00 /* TestGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6225180E0C95E25E06BCE53C5851D752 /* TestGroup.swift */; };
+		7424F71685E7D74C63A66F115EA4DC80 /* wpxmlrpc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D11140173BA4136FF55818C461A9883 /* wpxmlrpc-dummy.m */; };
+		757199CA53C4C8560E82CB373CCC66F2 /* WPXMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E90D0E881D50E7DFB376B9D9D3DA39 /* WPXMLRPCEncoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81DF3BA1ED34A0E36A1878FD73550B78 /* XMLRPCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D19656D0F11E573E6E840BA68D478C /* XMLRPCSession.swift */; };
 		84FEDB6B15D3381FDF97C39370C44A8A /* Pods-HealthCheck_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E756E56A1E9F64DD53C9C88B324D6C /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1FACC8FC19DCFD099E8FBB329C45A /* Converter.swift */; };
+		8988AAC1D1CB68AB287347666AD738FD /* WPXMLRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = 779C2AF42861C73085FFF07F15EF48A9 /* WPXMLRPC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89EBED6A131A578388F5353D1F495290 /* Pods-HealthCheck_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC29149A42767070EFE1C2DE3E250A /* Pods-HealthCheck_Tests-dummy.m */; };
-		93868982CB2D05DCFCAB52D88594CD56 /* wpxmlrpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E91A2255E5BD42D40C2F4720787A8 /* wpxmlrpc.framework */; };
-		949E2FD6D2537326CC5422649D7A7F46 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684B91EED388D7738639F3D927F5306 /* Converter.swift */; };
-		A2D87CFA655F41BE8ADE9D8E7FB8EC96 /* WPXMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E90D0E881D50E7DFB376B9D9D3DA39 /* WPXMLRPCEncoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A6E7FFCC17C043A9E4AE3EE2375DD6C5 /* WPXMLRPC.h in Headers */ = {isa = PBXBuildFile; fileRef = 779C2AF42861C73085FFF07F15EF48A9 /* WPXMLRPC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A867060BF7902BB5757B94F6945C3A6E /* wpxmlrpc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B710C05FB580B1A5AEDC197794B39C /* wpxmlrpc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25D1D11102A49B2ADE0DFA1B409D278 /* XMLRPCToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4894062365509AD4D2CA4276CE2B22 /* XMLRPCToArray.swift */; };
 		A9588D0547640B9B53215F722E7FE870 /* Pods-HealthCheck_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A7FE41A9D0FEA08CA0B02E402FFBA9 /* Pods-HealthCheck_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABA9F853A5811EAD00AE88B41A703185 /* WPXMLRPCDecoderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4191383FF920D4FAF2AE08D5EFD517E /* WPXMLRPCDecoderDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B641E0D55FB39FC2FBA240C6F081CD87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
+		AEF050AE26DA2031CBAB64A3F71C51DB /* WPBase64Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 808C61DD4A75B48980805E8186D094DF /* WPBase64Utils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B7A80DDEC98AD6CC61E09BD1768631A2 /* WPXMLRPCDataCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F70FD95CC51F90AC3B5EFBD091F1 /* WPXMLRPCDataCleaner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B85071BE7060A0069BCF3CE313F2B7C9 /* Pods-HealthCheck_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F667BE2FF420F464317BB9FCABC15B /* Pods-HealthCheck_Example-dummy.m */; };
+		BD6FA19CAF3E00B0A4858F3774C70326 /* HealthCheck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9017E84D30013288F5CBAE1031C3120D /* HealthCheck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA3A124BBFE043F2FB93BA213656FC08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
-		D29E43A711952EF81913702014FE4F9E /* WPXMLRPCEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE80B2B9B9AEF68A260FA54940F0B4DA /* WPXMLRPCEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7651FF85040CE983E50C5424EE8A70A /* HealthCheck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E833A0E696A046B5CBC29045CB58F39 /* HealthCheck-dummy.m */; };
-		DB21A5524180EAA6999924408B7104D3 /* WPXMLRPCDataCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B6F70FD95CC51F90AC3B5EFBD091F1 /* WPXMLRPCDataCleaner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DEEAA091E1270B87DDCDB7A0EBF28EC1 /* WPXMLRPCDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCBD3B361E565FBAA50567277C2368 /* WPXMLRPCDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E378B6C00CFF8041712140B1BF0BEAC3 /* WPStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21ADF8C3E3147B2B6218AE47535679 /* WPStringUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E428DC3009048EA661572D9E642F9822 /* TestGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B1E7093371F65B64B900A8D0D478B /* TestGroup.swift */; };
-		FFFB38481C7E6F6E00E064D0 /* XMLRPCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38471C7E6F6E00E064D0 /* XMLRPCSession.swift */; };
-		FFFB384A1C7E7BE300E064D0 /* XMLRPCToDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38491C7E7BE300E064D0 /* XMLRPCToDictionary.swift */; };
-		FFFB384C1C7E874800E064D0 /* XMLRPCParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB384B1C7E874800E064D0 /* XMLRPCParserErrors.swift */; };
-		FFFB384E1C7E87CE00E064D0 /* XMLRPCToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB384D1C7E87CE00E064D0 /* XMLRPCToArray.swift */; };
-		FFFB38511C7E8B0D00E064D0 /* TestXMLRPCAllMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38501C7E8B0D00E064D0 /* TestXMLRPCAllMethods.swift */; };
+		CFD492B80A8B75D1689BBDCB2541A6B2 /* XMLRPCToDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B72D969865BF35C273F10921A6DA53 /* XMLRPCToDictionary.swift */; };
+		D497A61F275E8EA10AC56890999651E0 /* wpxmlrpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E91A2255E5BD42D40C2F4720787A8 /* wpxmlrpc.framework */; };
+		DAB295877F43788DED08C68D123C5F14 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A2A46CF972DD344B2ABB47624273 /* ParameterEncoding.swift */; };
+		E6E8F9AB3450E79FBFAFD868342FAD60 /* WPXMLRPCDecoderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4428C9F4FD78A5C85878BE59CF3215E9 /* WPXMLRPCDecoderDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED2C5A8F08FFC2CE6A30983838041C9B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3AE2ACA154B4DEA91A127E0F593FB /* Test.swift */; };
+		F9BDF016CD3A3ECA28CAB7EE6231AC5D /* HTTPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CA8530514D77C6983A605D0351782 /* HTTPSession.swift */; };
+		FB82F4B0D5EAF75FDA8698ED30AE65E3 /* TestXMLRPCAllMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0021F61518FC81F8E331E14E087EA8A /* TestXMLRPCAllMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		057CE27A6736BF2A4EE4E8F289E91A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53097DEB305BFD9BFE29F620CFAB5FBA;
+			remoteInfo = "HealthCheck-HealthCheck";
+		};
 		3E6866703DBFB17DE3629FDDE02C54DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70BF2F4CDF086151EC20CF45853AE74D;
+			remoteGlobalIDString = ED98B03929D79C3DA8B436434E62260A;
 			remoteInfo = HealthCheck;
 		};
 		58F8D57E02F172543C77E2706EC5EDD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F713A11B01A780EBC7683A0C9457CC4;
+			remoteGlobalIDString = E3AEB334EA03329A0B3E43A0CA6D4E6A;
 			remoteInfo = wpxmlrpc;
 		};
 		5A0C55A6F48240DAC7347743BC281616 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F713A11B01A780EBC7683A0C9457CC4;
+			remoteGlobalIDString = E3AEB334EA03329A0B3E43A0CA6D4E6A;
 			remoteInfo = wpxmlrpc;
 		};
-		83A91CACFFD02CBB045EB6B057D347DF /* PBXContainerItemProxy */ = {
+		94209C0D16F6D6B8CA4909CACBED9E38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F713A11B01A780EBC7683A0C9457CC4;
+			remoteGlobalIDString = E3AEB334EA03329A0B3E43A0CA6D4E6A;
 			remoteInfo = wpxmlrpc;
 		};
 		CB3BE288B075CCE4CB0C25133DCBCFAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 70BF2F4CDF086151EC20CF45853AE74D;
+			remoteGlobalIDString = ED98B03929D79C3DA8B436434E62260A;
 			remoteInfo = HealthCheck;
-		};
-		F7401A41C5DD93FFC3FA777B89B955CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0823CA53A99504C7B0CBDE5489715048;
-			remoteInfo = "HealthCheck-HealthCheck";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -99,12 +100,12 @@
 		0829869EDC78D6C610AAB54D58DFC5FF /* WPXMLRPCDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPXMLRPCDecoder.m; path = WPXMLRPC/WPXMLRPCDecoder.m; sourceTree = "<group>"; };
 		0D277DF68FF6137EBE1F92C1353CC04F /* Pods-HealthCheck_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthCheck_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E833A0E696A046B5CBC29045CB58F39 /* HealthCheck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HealthCheck-dummy.m"; sourceTree = "<group>"; };
-		127B1E7093371F65B64B900A8D0D478B /* TestGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestGroup.swift; sourceTree = "<group>"; };
 		20A7FE41A9D0FEA08CA0B02E402FFBA9 /* Pods-HealthCheck_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthCheck_Example-umbrella.h"; sourceTree = "<group>"; };
 		21E5339923072994321E00FAA5CAD5DF /* wpxmlrpc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = wpxmlrpc.modulemap; sourceTree = "<group>"; };
 		24B710C05FB580B1A5AEDC197794B39C /* wpxmlrpc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wpxmlrpc-umbrella.h"; sourceTree = "<group>"; };
 		2C39B693F182AFABE6A4323D19BBF235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D36DFDEE7C205BB8610BF0548C25660 /* Pods-HealthCheck_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		390241936CB9232A7E9F59333573E9D7 /* LoginInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
 		3B23D7D658AE028D2382753A0024F340 /* Pods-HealthCheck_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Example-resources.sh"; sourceTree = "<group>"; };
 		3D2D9A5180B7E436B731A01089A3755E /* wpxmlrpc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wpxmlrpc-prefix.pch"; sourceTree = "<group>"; };
 		3DE90505A824A7924593F7609A1A4C9F /* WPXMLRPCDataCleaner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPCDataCleaner.h; path = WPXMLRPC/WPXMLRPCDataCleaner.h; sourceTree = "<group>"; };
@@ -113,63 +114,55 @@
 		463B77A1BEED8A2F498DFCED78E4CD61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BB70054C7B7B70592D2A9B2944147A /* Pods-HealthCheck_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5684B91EED388D7738639F3D927F5306 /* Converter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		57AC1F1DF3253135E7C8736CF4E38D2F /* Pods-HealthCheck_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		57E1FACC8FC19DCFD099E8FBB329C45A /* Converter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		5F4894062365509AD4D2CA4276CE2B22 /* XMLRPCToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMLRPCToArray.swift; sourceTree = "<group>"; };
 		5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthCheck_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6225180E0C95E25E06BCE53C5851D752 /* TestGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestGroup.swift; sourceTree = "<group>"; };
+		66710F6AB3EDEF23FC7C2A61009DB264 /* TestResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
 		6C3E13DFB1B3F1B7E03DF14076761B06 /* Pods-HealthCheck_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthCheck_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D8D92500EE848D6A971C8377D70BD8B /* Pods-HealthCheck_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HealthCheck_Tests.modulemap"; sourceTree = "<group>"; };
 		779C2AF42861C73085FFF07F15EF48A9 /* WPXMLRPC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPC.h; path = WPXMLRPC/WPXMLRPC.h; sourceTree = "<group>"; };
-		78920E0C59A3664BF682B7D4BDD9C9D1 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		808C61DD4A75B48980805E8186D094DF /* WPBase64Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPBase64Utils.m; path = WPXMLRPC/WPBase64Utils.m; sourceTree = "<group>"; };
-		82137B4DD02D6353672E87846C11A7FF /* TestResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
+		831CA8530514D77C6983A605D0351782 /* HTTPSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
 		8479A0C7F64D2D770C79693C4DC0A6CE /* HealthCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HealthCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		847A78F7FBEF2C7A00597EE626485BAC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		87B6F70FD95CC51F90AC3B5EFBD091F1 /* WPXMLRPCDataCleaner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPXMLRPCDataCleaner.m; path = WPXMLRPC/WPXMLRPCDataCleaner.m; sourceTree = "<group>"; };
 		8D11140173BA4136FF55818C461A9883 /* wpxmlrpc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wpxmlrpc-dummy.m"; sourceTree = "<group>"; };
 		9017E84D30013288F5CBAE1031C3120D /* HealthCheck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthCheck-umbrella.h"; sourceTree = "<group>"; };
 		9236A6DD34D7E27C52B48D993751E6ED /* Pods-HealthCheck_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthCheck_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		95D90D60DB7F8E8EEFD671FEC0DB3730 /* Pods-HealthCheck_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Example.release.xcconfig"; sourceTree = "<group>"; };
+		99961F184889DE034F4D36EBF07230D6 /* XMLRPCParserErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMLRPCParserErrors.swift; sourceTree = "<group>"; };
+		99B72D969865BF35C273F10921A6DA53 /* XMLRPCToDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMLRPCToDictionary.swift; sourceTree = "<group>"; };
 		9A250DA013CFDEA78C352E295BFA9690 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B1CC605B421D599E8239F25A6475D1E /* HealthCheck.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthCheck.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F21ADF8C3E3147B2B6218AE47535679 /* WPStringUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPStringUtils.m; path = WPXMLRPC/WPStringUtils.m; sourceTree = "<group>"; };
 		9FB14FED01D482144725A016AB00D746 /* Pods-HealthCheck_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthCheck_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9C3AE2ACA154B4DEA91A127E0F593FB /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1DBE824F96A320252FC0E506EB32E52 /* WPBase64Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPBase64Utils.h; path = WPXMLRPC/WPBase64Utils.h; sourceTree = "<group>"; };
 		C318F3D1EAC99FA783250CB0FD625C43 /* Pods_HealthCheck_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthCheck.xcconfig; sourceTree = "<group>"; };
 		CBDCBD3B361E565FBAA50567277C2368 /* WPXMLRPCDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPCDecoder.h; path = WPXMLRPC/WPXMLRPCDecoder.h; sourceTree = "<group>"; };
 		CC9601DD70493E33D5343932379FFA65 /* Pods-HealthCheck_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Tests-resources.sh"; sourceTree = "<group>"; };
+		D0021F61518FC81F8E331E14E087EA8A /* TestXMLRPCAllMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestXMLRPCAllMethods.swift; sourceTree = "<group>"; };
 		D0E90D0E881D50E7DFB376B9D9D3DA39 /* WPXMLRPCEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPXMLRPCEncoder.m; path = WPXMLRPC/WPXMLRPCEncoder.m; sourceTree = "<group>"; };
 		D177C2BB89C3DA63FF3D9CF6298C249E /* HealthCheck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HealthCheck-prefix.pch"; sourceTree = "<group>"; };
 		D4191383FF920D4FAF2AE08D5EFD517E /* WPXMLRPCDecoderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPCDecoderDelegate.h; path = WPXMLRPC/WPXMLRPCDecoderDelegate.h; sourceTree = "<group>"; };
+		D4D19656D0F11E573E6E840BA68D478C /* XMLRPCSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMLRPCSession.swift; sourceTree = "<group>"; };
 		DAA6346F3AE8ECE6119B279D2F079808 /* WPStringUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPStringUtils.h; path = WPXMLRPC/WPStringUtils.h; sourceTree = "<group>"; };
 		DB6A3BDC34B3EAC6064D9C224518AA6E /* Pods-HealthCheck_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E7A2A46CF972DD344B2ABB47624273 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		E4EC29149A42767070EFE1C2DE3E250A /* Pods-HealthCheck_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthCheck_Tests-dummy.m"; sourceTree = "<group>"; };
 		ED200C906D605976AFBE5B5A8AD78E28 /* Pods-HealthCheck_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED5E91A2255E5BD42D40C2F4720787A8 /* wpxmlrpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wpxmlrpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE176F74D42203B1AD305B63E85E5107 /* wpxmlrpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wpxmlrpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE513DAFA1ED65DBEF9EC7F79465D098 /* HTTPSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPSession.swift; sourceTree = "<group>"; };
 		F080EB1376A9242645A2782DC40B22EA /* Pods-HealthCheck_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HealthCheck_Example.modulemap"; sourceTree = "<group>"; };
 		FE80B2B9B9AEF68A260FA54940F0B4DA /* WPXMLRPCEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPCEncoder.h; path = WPXMLRPC/WPXMLRPCEncoder.h; sourceTree = "<group>"; };
 		FFECB05D15B68DD7D21ADDB4B7CF8996 /* wpxmlrpc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wpxmlrpc.xcconfig; sourceTree = "<group>"; };
-		FFFB38471C7E6F6E00E064D0 /* XMLRPCSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCSession.swift; sourceTree = "<group>"; };
-		FFFB38491C7E7BE300E064D0 /* XMLRPCToDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCToDictionary.swift; sourceTree = "<group>"; };
-		FFFB384B1C7E874800E064D0 /* XMLRPCParserErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCParserErrors.swift; sourceTree = "<group>"; };
-		FFFB384D1C7E87CE00E064D0 /* XMLRPCToArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCToArray.swift; sourceTree = "<group>"; };
-		FFFB38501C7E8B0D00E064D0 /* TestXMLRPCAllMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestXMLRPCAllMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13A43A9524F444741D3337148BA99DF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B641E0D55FB39FC2FBA240C6F081CD87 /* Foundation.framework in Frameworks */,
-				93868982CB2D05DCFCAB52D88594CD56 /* wpxmlrpc.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D8129598B4AD79F12B0436C585FD6A7 /* Frameworks */ = {
+		3264F52078360E5B938510C800CF44B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,11 +177,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8275FA82BC04443F95F44D12A51145CD /* Frameworks */ = {
+		63C897003F3C1D5A2ED158773654D43D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E9149C99A72B550378E569D8489B0B /* Foundation.framework in Frameworks */,
+				19E779C1E2853E7A3EBF728BB5F60360 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +190,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5E6575D465968B3C6B334B45110257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3364849856FD2D087E8CB30FE87D0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6985428A5B61AA0D8EDDABCF78CEBDA7 /* Foundation.framework in Frameworks */,
+				D497A61F275E8EA10AC56890999651E0 /* wpxmlrpc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,13 +297,24 @@
 			path = wpxmlrpc;
 			sourceTree = "<group>";
 		};
-		6789529AEEA73DB3DE8354A960915B63 /* Classes */ = {
+		63B7108DA98F3CAE29AE047621D73E09 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				B02B90E3BEE47828AFB8115003D532B6 /* Model */,
-				B11E080ED08DEB1CD91D9EEECED8DD89 /* Network */,
+				B9C3AE2ACA154B4DEA91A127E0F593FB /* Test.swift */,
+				6225180E0C95E25E06BCE53C5851D752 /* TestGroup.swift */,
+				66710F6AB3EDEF23FC7C2A61009DB264 /* TestResult.swift */,
 			);
-			path = Classes;
+			path = Test;
+			sourceTree = "<group>";
+		};
+		63D776A87C8BBEA1876DFD881E653ED1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7064D767FD9FEB68AE5E997C08C0A837 /* LoginInfo */,
+				63B7108DA98F3CAE29AE047621D73E09 /* Test */,
+				8D091C2A76005C5CF32A22F4DDE6C78A /* WPXMLRPCTests */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		692ACD03A0650CF3D439284F15A668A2 /* Support Files */ = {
@@ -336,6 +349,14 @@
 			path = "Target Support Files/Pods-HealthCheck_Tests";
 			sourceTree = "<group>";
 		};
+		7064D767FD9FEB68AE5E997C08C0A837 /* LoginInfo */ = {
+			isa = PBXGroup;
+			children = (
+				390241936CB9232A7E9F59333573E9D7 /* LoginInfo.swift */,
+			);
+			path = LoginInfo;
+			sourceTree = "<group>";
+		};
 		7B953E7C009BF7EF07C74110764C47B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,43 +378,27 @@
 			);
 			sourceTree = "<group>";
 		};
-		B02B90E3BEE47828AFB8115003D532B6 /* Model */ = {
+		8D091C2A76005C5CF32A22F4DDE6C78A /* WPXMLRPCTests */ = {
 			isa = PBXGroup;
 			children = (
-				FFFB384F1C7E8B0D00E064D0 /* WPXMLRPCTests */,
-				C560138E89AD818818F7B079DF1C5116 /* Test */,
+				D0021F61518FC81F8E331E14E087EA8A /* TestXMLRPCAllMethods.swift */,
 			);
-			path = Model;
+			path = WPXMLRPCTests;
 			sourceTree = "<group>";
 		};
-		B11E080ED08DEB1CD91D9EEECED8DD89 /* Network */ = {
+		AB2FE3600F4DFE58284DC41F34CD0982 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5684B91EED388D7738639F3D927F5306 /* Converter.swift */,
-				EE513DAFA1ED65DBEF9EC7F79465D098 /* HTTPSession.swift */,
-				847A78F7FBEF2C7A00597EE626485BAC /* ParameterEncoding.swift */,
-				FFFB38471C7E6F6E00E064D0 /* XMLRPCSession.swift */,
-				FFFB38491C7E7BE300E064D0 /* XMLRPCToDictionary.swift */,
-				FFFB384D1C7E87CE00E064D0 /* XMLRPCToArray.swift */,
-				FFFB384B1C7E874800E064D0 /* XMLRPCParserErrors.swift */,
+				63D776A87C8BBEA1876DFD881E653ED1 /* Model */,
+				F2FE113134E80248997B01EC2031C5F4 /* Network */,
 			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		C560138E89AD818818F7B079DF1C5116 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				78920E0C59A3664BF682B7D4BDD9C9D1 /* Test.swift */,
-				127B1E7093371F65B64B900A8D0D478B /* TestGroup.swift */,
-				82137B4DD02D6353672E87846C11A7FF /* TestResult.swift */,
-			);
-			path = Test;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C996E25BB03C64E4B82C25F2F6C9493A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6789529AEEA73DB3DE8354A960915B63 /* Classes */,
+				AB2FE3600F4DFE58284DC41F34CD0982 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -406,6 +411,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F2FE113134E80248997B01EC2031C5F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				57E1FACC8FC19DCFD099E8FBB329C45A /* Converter.swift */,
+				831CA8530514D77C6983A605D0351782 /* HTTPSession.swift */,
+				E3E7A2A46CF972DD344B2ABB47624273 /* ParameterEncoding.swift */,
+				99961F184889DE034F4D36EBF07230D6 /* XMLRPCParserErrors.swift */,
+				D4D19656D0F11E573E6E840BA68D478C /* XMLRPCSession.swift */,
+				5F4894062365509AD4D2CA4276CE2B22 /* XMLRPCToArray.swift */,
+				99B72D969865BF35C273F10921A6DA53 /* XMLRPCToDictionary.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		F6AFA56BFA049476EA0614788C8C3264 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,37 +433,22 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FFFB384F1C7E8B0D00E064D0 /* WPXMLRPCTests */ = {
-			isa = PBXGroup;
-			children = (
-				FFFB38501C7E8B0D00E064D0 /* TestXMLRPCAllMethods.swift */,
-			);
-			path = WPXMLRPCTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1587016D5157390B8D4DC0A18C3440E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EED833C8DB74CB5BC9BA3F4C784317C /* WPBase64Utils.h in Headers */,
-				61EFBA8940DD848A6B1E5A87B9C13ED0 /* WPStringUtils.h in Headers */,
-				A867060BF7902BB5757B94F6945C3A6E /* wpxmlrpc-umbrella.h in Headers */,
-				A6E7FFCC17C043A9E4AE3EE2375DD6C5 /* WPXMLRPC.h in Headers */,
-				3F1DEDD4745750B7EC5A9950AA0DAD8D /* WPXMLRPCDataCleaner.h in Headers */,
-				DEEAA091E1270B87DDCDB7A0EBF28EC1 /* WPXMLRPCDecoder.h in Headers */,
-				ABA9F853A5811EAD00AE88B41A703185 /* WPXMLRPCDecoderDelegate.h in Headers */,
-				D29E43A711952EF81913702014FE4F9E /* WPXMLRPCEncoder.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		379066AF8416681CB4156552771CB5F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84FEDB6B15D3381FDF97C39370C44A8A /* Pods-HealthCheck_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6AB12E3806564E11823F683BCE2854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6FA19CAF3E00B0A4858F3774C70326 /* HealthCheck-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,24 +460,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD1522E49CD8FF01848F3B0491C0CDC4 /* Headers */ = {
+		C61776D0A8CB19FBF448733B1F6AD582 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D20A5E32F280B8BFBBD15BADA23EFC /* HealthCheck-umbrella.h in Headers */,
+				145622122DDFD79272C647CC375304D6 /* WPBase64Utils.h in Headers */,
+				0F856CC6D049D272498FA185A82D7534 /* WPStringUtils.h in Headers */,
+				30A0C0895D4FCCED80C9719394706CED /* wpxmlrpc-umbrella.h in Headers */,
+				8988AAC1D1CB68AB287347666AD738FD /* WPXMLRPC.h in Headers */,
+				2F966B994C419D204AFA0C717F0C1066 /* WPXMLRPCDataCleaner.h in Headers */,
+				70B145E8B58272DEF7839C1533C803CF /* WPXMLRPCDecoder.h in Headers */,
+				36EFBFDBD76F59DDC592457A59A20981 /* WPXMLRPCDecoderDelegate.h in Headers */,
+				5ABDF5C53003A4906A65C5E8AEA773D3 /* WPXMLRPCEncoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0823CA53A99504C7B0CBDE5489715048 /* HealthCheck-HealthCheck */ = {
+		53097DEB305BFD9BFE29F620CFAB5FBA /* HealthCheck-HealthCheck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 212D34D2B4B748E2FEFA618419D2EE09 /* Build configuration list for PBXNativeTarget "HealthCheck-HealthCheck" */;
+			buildConfigurationList = 335EC108970C4E4E437D1BBCAE61DD56 /* Build configuration list for PBXNativeTarget "HealthCheck-HealthCheck" */;
 			buildPhases = (
-				178365546B1DD9F8AE7C43B60A07EDD1 /* Sources */,
-				1D8129598B4AD79F12B0436C585FD6A7 /* Frameworks */,
-				9C1BC871F8B7C3A6A0CC6D3E3DC60FF9 /* Resources */,
+				3C58C8F7D8CA7663BFB115B50BD7F6C4 /* Sources */,
+				3264F52078360E5B938510C800CF44B8 /* Frameworks */,
+				7E45E08DC761CCD5BF77212DD6FE120D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -483,43 +494,6 @@
 			productName = "HealthCheck-HealthCheck";
 			productReference = 9B1CC605B421D599E8239F25A6475D1E /* HealthCheck.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		70BF2F4CDF086151EC20CF45853AE74D /* HealthCheck */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E644647BD5E63D83337DD26CEC9A909 /* Build configuration list for PBXNativeTarget "HealthCheck" */;
-			buildPhases = (
-				A684B3F5E1F555426EE07B2333D94F01 /* Sources */,
-				13A43A9524F444741D3337148BA99DF2 /* Frameworks */,
-				82580931D6C3F2FB625616CBDF3D5D03 /* Resources */,
-				FD1522E49CD8FF01848F3B0491C0CDC4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1A41265D0E64D5E46A453615A8F40AE /* PBXTargetDependency */,
-				B91F9AABF35E0C53050B4578FD3C91E9 /* PBXTargetDependency */,
-			);
-			name = HealthCheck;
-			productName = HealthCheck;
-			productReference = 8479A0C7F64D2D770C79693C4DC0A6CE /* HealthCheck.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8F713A11B01A780EBC7683A0C9457CC4 /* wpxmlrpc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F662845807CE2459AA19FB03C93B715 /* Build configuration list for PBXNativeTarget "wpxmlrpc" */;
-			buildPhases = (
-				856FF7E5477048C0ED7021DFF35C3E2C /* Sources */,
-				8275FA82BC04443F95F44D12A51145CD /* Frameworks */,
-				1587016D5157390B8D4DC0A18C3440E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = wpxmlrpc;
-			productName = wpxmlrpc;
-			productReference = EE176F74D42203B1AD305B63E85E5107 /* wpxmlrpc.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		9D84D889B1C7D5F5E0840511DBF309F9 /* Pods-HealthCheck_Example */ = {
 			isa = PBXNativeTarget;
@@ -538,6 +512,23 @@
 			name = "Pods-HealthCheck_Example";
 			productName = "Pods-HealthCheck_Example";
 			productReference = C318F3D1EAC99FA783250CB0FD625C43 /* Pods_HealthCheck_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3AEB334EA03329A0B3E43A0CA6D4E6A /* wpxmlrpc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9FBED6BC52A8A845DA0BB9E350C33D /* Build configuration list for PBXNativeTarget "wpxmlrpc" */;
+			buildPhases = (
+				8DFE551B4F8EFA2ED535A1011F90C397 /* Sources */,
+				63C897003F3C1D5A2ED158773654D43D /* Frameworks */,
+				C61776D0A8CB19FBF448733B1F6AD582 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wpxmlrpc;
+			productName = wpxmlrpc;
+			productReference = EE176F74D42203B1AD305B63E85E5107 /* wpxmlrpc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E953CC394819A0CDD73A154D7DC72B3A /* Pods-HealthCheck_Tests */ = {
@@ -559,6 +550,26 @@
 			productReference = 04BB6769758AA9DFF7B585E8790C50DF /* Pods_HealthCheck_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		ED98B03929D79C3DA8B436434E62260A /* HealthCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F683F11E06FE1071CE768483B0BB7343 /* Build configuration list for PBXNativeTarget "HealthCheck" */;
+			buildPhases = (
+				71B69E518838CC66D6C216D4FF2D35B1 /* Sources */,
+				F3364849856FD2D087E8CB30FE87D0A8 /* Frameworks */,
+				0C9FCD86984AFC876FFCDD32A4A9FFE4 /* Resources */,
+				4B6AB12E3806564E11823F683BCE2854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1A7B11772B6C4434827D840EAF9691 /* PBXTargetDependency */,
+				B3F1B1D1B395CD1667B4E2BD9FDE142B /* PBXTargetDependency */,
+			);
+			name = HealthCheck;
+			productName = HealthCheck;
+			productReference = 8479A0C7F64D2D770C79693C4DC0A6CE /* HealthCheck.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -566,7 +577,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -580,25 +591,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70BF2F4CDF086151EC20CF45853AE74D /* HealthCheck */,
-				0823CA53A99504C7B0CBDE5489715048 /* HealthCheck-HealthCheck */,
+				ED98B03929D79C3DA8B436434E62260A /* HealthCheck */,
+				53097DEB305BFD9BFE29F620CFAB5FBA /* HealthCheck-HealthCheck */,
 				9D84D889B1C7D5F5E0840511DBF309F9 /* Pods-HealthCheck_Example */,
 				E953CC394819A0CDD73A154D7DC72B3A /* Pods-HealthCheck_Tests */,
-				8F713A11B01A780EBC7683A0C9457CC4 /* wpxmlrpc */,
+				E3AEB334EA03329A0B3E43A0CA6D4E6A /* wpxmlrpc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		82580931D6C3F2FB625616CBDF3D5D03 /* Resources */ = {
+		0C9FCD86984AFC876FFCDD32A4A9FFE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				425DE1A907E216B80B03A2C25824746C /* HealthCheck.bundle in Resources */,
+				12242EC573FB1C33B9E00E694564AA50 /* HealthCheck.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C1BC871F8B7C3A6A0CC6D3E3DC60FF9 /* Resources */ = {
+		7E45E08DC761CCD5BF77212DD6FE120D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -616,43 +627,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		178365546B1DD9F8AE7C43B60A07EDD1 /* Sources */ = {
+		3C58C8F7D8CA7663BFB115B50BD7F6C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		856FF7E5477048C0ED7021DFF35C3E2C /* Sources */ = {
+		71B69E518838CC66D6C216D4FF2D35B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D2E3B0499369B2DAB8C5E402D89EFAC /* WPBase64Utils.m in Sources */,
-				E378B6C00CFF8041712140B1BF0BEAC3 /* WPStringUtils.m in Sources */,
-				0F24ADAC5C84BC430709AD2916EDA7F2 /* wpxmlrpc-dummy.m in Sources */,
-				DB21A5524180EAA6999924408B7104D3 /* WPXMLRPCDataCleaner.m in Sources */,
-				51B4F6B307E16D3798027B46B1489D66 /* WPXMLRPCDecoder.m in Sources */,
-				1E17BC5254F2A0F7E4974842C77A0602 /* WPXMLRPCDecoderDelegate.m in Sources */,
-				A2D87CFA655F41BE8ADE9D8E7FB8EC96 /* WPXMLRPCEncoder.m in Sources */,
+				85E756E56A1E9F64DD53C9C88B324D6C /* Converter.swift in Sources */,
+				03C6D0299E2FB888C7163CF4DC4DEF02 /* HealthCheck-dummy.m in Sources */,
+				F9BDF016CD3A3ECA28CAB7EE6231AC5D /* HTTPSession.swift in Sources */,
+				63C7EEFC54BD72BA587B19888B0C6CAC /* LoginInfo.swift in Sources */,
+				DAB295877F43788DED08C68D123C5F14 /* ParameterEncoding.swift in Sources */,
+				ED2C5A8F08FFC2CE6A30983838041C9B /* Test.swift in Sources */,
+				712725AB0A209AB336EF1D642286AB00 /* TestGroup.swift in Sources */,
+				520C19C6DDA40BA57D22854F03C0A0F8 /* TestResult.swift in Sources */,
+				FB82F4B0D5EAF75FDA8698ED30AE65E3 /* TestXMLRPCAllMethods.swift in Sources */,
+				21503FDECFB005B82BDBA846135BD0A8 /* XMLRPCParserErrors.swift in Sources */,
+				81DF3BA1ED34A0E36A1878FD73550B78 /* XMLRPCSession.swift in Sources */,
+				A25D1D11102A49B2ADE0DFA1B409D278 /* XMLRPCToArray.swift in Sources */,
+				CFD492B80A8B75D1689BBDCB2541A6B2 /* XMLRPCToDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A684B3F5E1F555426EE07B2333D94F01 /* Sources */ = {
+		8DFE551B4F8EFA2ED535A1011F90C397 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949E2FD6D2537326CC5422649D7A7F46 /* Converter.swift in Sources */,
-				D7651FF85040CE983E50C5424EE8A70A /* HealthCheck-dummy.m in Sources */,
-				47AE3539F7EF2D65888D41D42405D940 /* HTTPSession.swift in Sources */,
-				FFFB38511C7E8B0D00E064D0 /* TestXMLRPCAllMethods.swift in Sources */,
-				FFFB384C1C7E874800E064D0 /* XMLRPCParserErrors.swift in Sources */,
-				0B5E530DF8796312C435337D2F69549A /* ParameterEncoding.swift in Sources */,
-				FFFB384E1C7E87CE00E064D0 /* XMLRPCToArray.swift in Sources */,
-				33FB4DB39FB04EAB95D91C1E9F5901E2 /* Test.swift in Sources */,
-				E428DC3009048EA661572D9E642F9822 /* TestGroup.swift in Sources */,
-				FFFB38481C7E6F6E00E064D0 /* XMLRPCSession.swift in Sources */,
-				FFFB384A1C7E7BE300E064D0 /* XMLRPCToDictionary.swift in Sources */,
-				45D1C642B63C374234FB39FB80414F2E /* TestResult.swift in Sources */,
+				AEF050AE26DA2031CBAB64A3F71C51DB /* WPBase64Utils.m in Sources */,
+				70DBD5609D0D40748FB2B6603B304509 /* WPStringUtils.m in Sources */,
+				7424F71685E7D74C63A66F115EA4DC80 /* wpxmlrpc-dummy.m in Sources */,
+				B7A80DDEC98AD6CC61E09BD1768631A2 /* WPXMLRPCDataCleaner.m in Sources */,
+				4CF3D3EF6C6D5E1E60E7055EEF287771 /* WPXMLRPCDecoder.m in Sources */,
+				E6E8F9AB3450E79FBFAFD868342FAD60 /* WPXMLRPCDecoderDelegate.m in Sources */,
+				757199CA53C4C8560E82CB373CCC66F2 /* WPXMLRPCEncoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,37 +682,37 @@
 		2AB1AA99901B1C56306D21E1A51632A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HealthCheck;
-			target = 70BF2F4CDF086151EC20CF45853AE74D /* HealthCheck */;
+			target = ED98B03929D79C3DA8B436434E62260A /* HealthCheck */;
 			targetProxy = CB3BE288B075CCE4CB0C25133DCBCFAA /* PBXContainerItemProxy */;
+		};
+		3A1A7B11772B6C4434827D840EAF9691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HealthCheck-HealthCheck";
+			target = 53097DEB305BFD9BFE29F620CFAB5FBA /* HealthCheck-HealthCheck */;
+			targetProxy = 057CE27A6736BF2A4EE4E8F289E91A53 /* PBXContainerItemProxy */;
 		};
 		AB027E430506E4AD0E1EC1BC0414A990 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = wpxmlrpc;
-			target = 8F713A11B01A780EBC7683A0C9457CC4 /* wpxmlrpc */;
+			target = E3AEB334EA03329A0B3E43A0CA6D4E6A /* wpxmlrpc */;
 			targetProxy = 5A0C55A6F48240DAC7347743BC281616 /* PBXContainerItemProxy */;
 		};
-		B91F9AABF35E0C53050B4578FD3C91E9 /* PBXTargetDependency */ = {
+		B3F1B1D1B395CD1667B4E2BD9FDE142B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = wpxmlrpc;
-			target = 8F713A11B01A780EBC7683A0C9457CC4 /* wpxmlrpc */;
-			targetProxy = 83A91CACFFD02CBB045EB6B057D347DF /* PBXContainerItemProxy */;
+			target = E3AEB334EA03329A0B3E43A0CA6D4E6A /* wpxmlrpc */;
+			targetProxy = 94209C0D16F6D6B8CA4909CACBED9E38 /* PBXContainerItemProxy */;
 		};
 		BD7F5E8C6B6499F6CF251258779920C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HealthCheck;
-			target = 70BF2F4CDF086151EC20CF45853AE74D /* HealthCheck */;
+			target = ED98B03929D79C3DA8B436434E62260A /* HealthCheck */;
 			targetProxy = 3E6866703DBFB17DE3629FDDE02C54DC /* PBXContainerItemProxy */;
-		};
-		D1A41265D0E64D5E46A453615A8F40AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "HealthCheck-HealthCheck";
-			target = 0823CA53A99504C7B0CBDE5489715048 /* HealthCheck-HealthCheck */;
-			targetProxy = F7401A41C5DD93FFC3FA777B89B955CE /* PBXContainerItemProxy */;
 		};
 		D25E71908A6456749D369D08C9838F2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = wpxmlrpc;
-			target = 8F713A11B01A780EBC7683A0C9457CC4 /* wpxmlrpc */;
+			target = E3AEB334EA03329A0B3E43A0CA6D4E6A /* wpxmlrpc */;
 			targetProxy = 58F8D57E02F172543C77E2706EC5EDD2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -727,6 +739,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HealthCheck_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -736,7 +749,7 @@
 			};
 			name = Release;
 		};
-		08F11C87A58EDBD9A88B4F42D322E0A3 /* Release */ = {
+		0EB2B9CA439C6D39A7D9371CCC1DCB19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
 			buildSettings = {
@@ -754,6 +767,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HealthCheck/HealthCheck.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = HealthCheck;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -762,6 +776,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		13E73D32025D5FE567C382C4DB4BD9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HealthCheck/HealthCheck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HealthCheck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HealthCheck/HealthCheck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = HealthCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		40031522B1D82A814D4B67325753FCD9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -784,6 +827,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HealthCheck_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -811,6 +855,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -829,45 +874,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		5D800084D6C97B922C8FF1DE3EDA883C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HealthCheck;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7374B97A1AD00C1281260D39D3830B70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFECB05D15B68DD7D21ADDB4B7CF8996 /* wpxmlrpc.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/wpxmlrpc/wpxmlrpc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/wpxmlrpc/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/wpxmlrpc/wpxmlrpc.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = wpxmlrpc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -905,33 +911,6 @@
 			};
 			name = Release;
 		};
-		836F7CD7E4DBC39FA402326F242E811C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFECB05D15B68DD7D21ADDB4B7CF8996 /* wpxmlrpc.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/wpxmlrpc/wpxmlrpc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/wpxmlrpc/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/wpxmlrpc/wpxmlrpc.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = wpxmlrpc;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		89C15E0F664EF0F27A1CBDE53037B3CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED200C906D605976AFBE5B5A8AD78E28 /* Pods-HealthCheck_Tests.debug.xcconfig */;
@@ -953,6 +932,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HealthCheck_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -984,6 +964,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HealthCheck_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -994,7 +975,35 @@
 			};
 			name = Debug;
 		};
-		EE4BBEA784958E1F87D8974794249583 /* Release */ = {
+		B55A8DDBA5318E931B64F2052E2ED6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFECB05D15B68DD7D21ADDB4B7CF8996 /* wpxmlrpc.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/wpxmlrpc/wpxmlrpc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wpxmlrpc/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wpxmlrpc/wpxmlrpc.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = wpxmlrpc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4F92BC397708C484BD6AFC7B7EAE741 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
 			buildSettings = {
@@ -1006,9 +1015,21 @@
 			};
 			name = Release;
 		};
-		F2098597CA8CE29BB7ACF1702FF513AE /* Debug */ = {
+		F7775107D76AF9D235940F5C36F16868 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3A2EF967DAF76B4FDC12C8F254B7DF0 /* HealthCheck.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HealthCheck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FB2C4CDF979DC84896C865AF3AE02725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFECB05D15B68DD7D21ADDB4B7CF8996 /* wpxmlrpc.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1017,17 +1038,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HealthCheck/HealthCheck-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HealthCheck/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/wpxmlrpc/wpxmlrpc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wpxmlrpc/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HealthCheck/HealthCheck.modulemap";
+				MODULEMAP_FILE = "Target Support Files/wpxmlrpc/wpxmlrpc.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HealthCheck;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = wpxmlrpc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1046,15 +1067,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		212D34D2B4B748E2FEFA618419D2EE09 /* Build configuration list for PBXNativeTarget "HealthCheck-HealthCheck" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D800084D6C97B922C8FF1DE3EDA883C /* Debug */,
-				EE4BBEA784958E1F87D8974794249583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1064,20 +1076,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F662845807CE2459AA19FB03C93B715 /* Build configuration list for PBXNativeTarget "wpxmlrpc" */ = {
+		335EC108970C4E4E437D1BBCAE61DD56 /* Build configuration list for PBXNativeTarget "HealthCheck-HealthCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7374B97A1AD00C1281260D39D3830B70 /* Debug */,
-				836F7CD7E4DBC39FA402326F242E811C /* Release */,
+				F7775107D76AF9D235940F5C36F16868 /* Debug */,
+				C4F92BC397708C484BD6AFC7B7EAE741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E644647BD5E63D83337DD26CEC9A909 /* Build configuration list for PBXNativeTarget "HealthCheck" */ = {
+		4B9FBED6BC52A8A845DA0BB9E350C33D /* Build configuration list for PBXNativeTarget "wpxmlrpc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2098597CA8CE29BB7ACF1702FF513AE /* Debug */,
-				08F11C87A58EDBD9A88B4F42D322E0A3 /* Release */,
+				FB2C4CDF979DC84896C865AF3AE02725 /* Debug */,
+				B55A8DDBA5318E931B64F2052E2ED6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1087,6 +1099,15 @@
 			buildConfigurations = (
 				A84D1426D1545813BE10847DE527C08B /* Debug */,
 				04906C66BC12E792AB4BDCC856932D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F683F11E06FE1071CE768483B0BB7343 /* Build configuration list for PBXNativeTarget "HealthCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E73D32025D5FE567C382C4DB4BD9A2 /* Debug */,
+				0EB2B9CA439C6D39A7D9371CCC1DCB19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

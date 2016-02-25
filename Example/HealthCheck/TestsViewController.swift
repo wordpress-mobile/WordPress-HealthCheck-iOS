@@ -25,6 +25,12 @@ class TestsViewController : UITableViewController {
     
     private var testGroups = [TestGroup]()
     
+    /// The login info this VC will use for its tests.
+    ///
+    /// - Note: Must be set by whoever is creating this VC.
+    ///
+    var loginInfo: LoginInfo!
+    
     override func viewDidLoad() {
         let firstTest = ExampleTest()
         let tests: [Test] = [firstTest]
