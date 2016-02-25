@@ -37,6 +37,10 @@ class TestsViewController : UITableViewController {
         return testGroups.count
     }
     
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return testGroups[section].tests.count
+    }
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("TestsViewControllerCell", forIndexPath:  indexPath)
         
@@ -50,15 +54,5 @@ class TestsViewController : UITableViewController {
         cell.accessoryType = .None
         
         return cell
-    }
-    
-    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String] {
-        var titles = [String]()
-        
-        for testGroup in testGroups {
-            titles.append(testGroup.name)
-        }
-        
-        return titles
     }
 }
