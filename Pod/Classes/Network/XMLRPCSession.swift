@@ -39,10 +39,10 @@ class XMLRPCSession
         return httpSession
     }()
     
-    func requestDictionary(method:XMLRPCFunctions, success: RequestDictionarySuccess, failure: RequestFailure) {
+    func requestDictionary(method:XMLRPCFunctions, parameters:[String:AnyObject] = [String:AnyObject](), success: RequestDictionarySuccess, failure: RequestFailure) {
         httpSession.request(.POST,
             path: "/xmlrpc.php",
-            parameters: [String:AnyObject](),
+            parameters: parameters,
             parameterEncoding:.XMLRPC(method.rawValue),
             deserializer: XMLRPCToDictionaryConverter(),
             success: { (output) -> () in
@@ -54,10 +54,10 @@ class XMLRPCSession
         )
     }
 
-    func requestArray(method:XMLRPCFunctions, success: RequestArraySuccess, failure: RequestFailure) {
+    func requestArray(method:XMLRPCFunctions, parameters:[String:AnyObject] = [String:AnyObject](), success: RequestArraySuccess, failure: RequestFailure) {
         httpSession.request(.POST,
             path: "/xmlrpc.php",
-            parameters: [String:AnyObject](),
+            parameters: parameters,
             parameterEncoding:.XMLRPC(method.rawValue),
             deserializer: XMLRPCToArrayConverter(),
             success: { (output) -> () in
