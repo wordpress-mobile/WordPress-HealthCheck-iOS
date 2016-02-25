@@ -24,7 +24,6 @@
 		7EED833C8DB74CB5BC9BA3F4C784317C /* WPBase64Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DBE824F96A320252FC0E506EB32E52 /* WPBase64Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		84FEDB6B15D3381FDF97C39370C44A8A /* Pods-HealthCheck_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89EBED6A131A578388F5353D1F495290 /* Pods-HealthCheck_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC29149A42767070EFE1C2DE3E250A /* Pods-HealthCheck_Tests-dummy.m */; };
-		8E1570998E3AD7CF727696CFF0CDA525 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEADF2A1880308078B68F689A030853 /* TestError.swift */; };
 		93868982CB2D05DCFCAB52D88594CD56 /* wpxmlrpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E91A2255E5BD42D40C2F4720787A8 /* wpxmlrpc.framework */; };
 		949E2FD6D2537326CC5422649D7A7F46 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684B91EED388D7738639F3D927F5306 /* Converter.swift */; };
 		A2D87CFA655F41BE8ADE9D8E7FB8EC96 /* WPXMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E90D0E881D50E7DFB376B9D9D3DA39 /* WPXMLRPCEncoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -109,7 +108,6 @@
 		3B23D7D658AE028D2382753A0024F340 /* Pods-HealthCheck_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthCheck_Example-resources.sh"; sourceTree = "<group>"; };
 		3D2D9A5180B7E436B731A01089A3755E /* wpxmlrpc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wpxmlrpc-prefix.pch"; sourceTree = "<group>"; };
 		3DE90505A824A7924593F7609A1A4C9F /* WPXMLRPCDataCleaner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPCDataCleaner.h; path = WPXMLRPC/WPXMLRPCDataCleaner.h; sourceTree = "<group>"; };
-		3DEADF2A1880308078B68F689A030853 /* TestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		4428C9F4FD78A5C85878BE59CF3215E9 /* WPXMLRPCDecoderDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPXMLRPCDecoderDelegate.m; path = WPXMLRPC/WPXMLRPCDecoderDelegate.m; sourceTree = "<group>"; };
 		4517A559DC66ECD4D40BBC28D31AAD52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463B77A1BEED8A2F498DFCED78E4CD61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -386,7 +384,6 @@
 			isa = PBXGroup;
 			children = (
 				78920E0C59A3664BF682B7D4BDD9C9D1 /* Test.swift */,
-				3DEADF2A1880308078B68F689A030853 /* TestError.swift */,
 				127B1E7093371F65B64B900A8D0D478B /* TestGroup.swift */,
 				82137B4DD02D6353672E87846C11A7FF /* TestResult.swift */,
 			);
@@ -652,7 +649,6 @@
 				0B5E530DF8796312C435337D2F69549A /* ParameterEncoding.swift in Sources */,
 				FFFB384E1C7E87CE00E064D0 /* XMLRPCToArray.swift in Sources */,
 				33FB4DB39FB04EAB95D91C1E9F5901E2 /* Test.swift in Sources */,
-				8E1570998E3AD7CF727696CFF0CDA525 /* TestError.swift in Sources */,
 				E428DC3009048EA661572D9E642F9822 /* TestGroup.swift in Sources */,
 				FFFB38481C7E6F6E00E064D0 /* XMLRPCSession.swift in Sources */,
 				FFFB384A1C7E7BE300E064D0 /* XMLRPCToDictionary.swift in Sources */,
