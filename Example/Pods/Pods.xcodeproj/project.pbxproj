@@ -41,6 +41,11 @@
 		DEEAA091E1270B87DDCDB7A0EBF28EC1 /* WPXMLRPCDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCBD3B361E565FBAA50567277C2368 /* WPXMLRPCDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E378B6C00CFF8041712140B1BF0BEAC3 /* WPStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21ADF8C3E3147B2B6218AE47535679 /* WPStringUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E428DC3009048EA661572D9E642F9822 /* TestGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B1E7093371F65B64B900A8D0D478B /* TestGroup.swift */; };
+		FFFB38461C7E6F5800E064D0 /* TestXMLRPCAllMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38451C7E6F5800E064D0 /* TestXMLRPCAllMethods.swift */; };
+		FFFB38481C7E6F6E00E064D0 /* XMLRPCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38471C7E6F6E00E064D0 /* XMLRPCSession.swift */; };
+		FFFB384A1C7E7BE300E064D0 /* XMLRPCToDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38491C7E7BE300E064D0 /* XMLRPCToDictionary.swift */; };
+		FFFB384C1C7E874800E064D0 /* XMLRPCParserErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB384B1C7E874800E064D0 /* XMLRPCParserErrors.swift */; };
+		FFFB384E1C7E87CE00E064D0 /* XMLRPCToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB384D1C7E87CE00E064D0 /* XMLRPCToArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +154,11 @@
 		F080EB1376A9242645A2782DC40B22EA /* Pods-HealthCheck_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HealthCheck_Example.modulemap"; sourceTree = "<group>"; };
 		FE80B2B9B9AEF68A260FA54940F0B4DA /* WPXMLRPCEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPCEncoder.h; path = WPXMLRPC/WPXMLRPCEncoder.h; sourceTree = "<group>"; };
 		FFECB05D15B68DD7D21ADDB4B7CF8996 /* wpxmlrpc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wpxmlrpc.xcconfig; sourceTree = "<group>"; };
+		FFFB38451C7E6F5800E064D0 /* TestXMLRPCAllMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestXMLRPCAllMethods.swift; sourceTree = "<group>"; };
+		FFFB38471C7E6F6E00E064D0 /* XMLRPCSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCSession.swift; sourceTree = "<group>"; };
+		FFFB38491C7E7BE300E064D0 /* XMLRPCToDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCToDictionary.swift; sourceTree = "<group>"; };
+		FFFB384B1C7E874800E064D0 /* XMLRPCParserErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCParserErrors.swift; sourceTree = "<group>"; };
+		FFFB384D1C7E87CE00E064D0 /* XMLRPCToArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLRPCToArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +373,10 @@
 				5684B91EED388D7738639F3D927F5306 /* Converter.swift */,
 				EE513DAFA1ED65DBEF9EC7F79465D098 /* HTTPSession.swift */,
 				847A78F7FBEF2C7A00597EE626485BAC /* ParameterEncoding.swift */,
+				FFFB38471C7E6F6E00E064D0 /* XMLRPCSession.swift */,
+				FFFB38491C7E7BE300E064D0 /* XMLRPCToDictionary.swift */,
+				FFFB384D1C7E87CE00E064D0 /* XMLRPCToArray.swift */,
+				FFFB384B1C7E874800E064D0 /* XMLRPCParserErrors.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -374,6 +388,7 @@
 				3DEADF2A1880308078B68F689A030853 /* TestError.swift */,
 				127B1E7093371F65B64B900A8D0D478B /* TestGroup.swift */,
 				82137B4DD02D6353672E87846C11A7FF /* TestResult.swift */,
+				FFFB38451C7E6F5800E064D0 /* TestXMLRPCAllMethods.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -624,10 +639,15 @@
 				949E2FD6D2537326CC5422649D7A7F46 /* Converter.swift in Sources */,
 				D7651FF85040CE983E50C5424EE8A70A /* HealthCheck-dummy.m in Sources */,
 				47AE3539F7EF2D65888D41D42405D940 /* HTTPSession.swift in Sources */,
+				FFFB384C1C7E874800E064D0 /* XMLRPCParserErrors.swift in Sources */,
 				0B5E530DF8796312C435337D2F69549A /* ParameterEncoding.swift in Sources */,
+				FFFB38461C7E6F5800E064D0 /* TestXMLRPCAllMethods.swift in Sources */,
+				FFFB384E1C7E87CE00E064D0 /* XMLRPCToArray.swift in Sources */,
 				33FB4DB39FB04EAB95D91C1E9F5901E2 /* Test.swift in Sources */,
 				8E1570998E3AD7CF727696CFF0CDA525 /* TestError.swift in Sources */,
 				E428DC3009048EA661572D9E642F9822 /* TestGroup.swift in Sources */,
+				FFFB38481C7E6F6E00E064D0 /* XMLRPCSession.swift in Sources */,
+				FFFB384A1C7E7BE300E064D0 /* XMLRPCToDictionary.swift in Sources */,
 				45D1C642B63C374234FB39FB80414F2E /* TestResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

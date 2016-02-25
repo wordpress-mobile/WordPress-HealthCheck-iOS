@@ -21,6 +21,7 @@
 // THE SOFTWARE.
 
 import Foundation
+import wpxmlrpc
 
 /**
 HTTP method definitions.
@@ -62,7 +63,7 @@ public enum ParameterEncoding {
     case URLEncodedInURL
     case JSON
     case PropertyList(NSPropertyListFormat, NSPropertyListWriteOptions)
-    
+    case XMLRPC(String)
     /**
     Creates a URL request by encoding parameters and applying them onto an existing request.
     
@@ -154,8 +155,15 @@ public enum ParameterEncoding {
             } catch {
                 encodingError = error as NSError
             }
+        case .XMLRPC(let method):
+            do {
+                let xmlrpcParameters = Array(parameters.values)
+                let encoder = WPXMLRPCEncoder(method: method, andParameters: xmlrpcParameters)
+                mutableURLRequest.HTTPBody = try encoder.dataEncoded()
+            } catch {
+                encodingError = error as NSError
+            }
         }
-        
         return (mutableURLRequest, encodingError)
     }
     
