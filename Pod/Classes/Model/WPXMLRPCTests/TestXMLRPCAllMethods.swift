@@ -23,10 +23,12 @@ public class TestXMLRPCAllMethods: Test
         session.listMethods({ (array) -> () in
             print(array)
             onComplete(test: self, success: true);
+            self.result = TestResult(test: self, success: true, error: nil)
         }, failure:  { (error) -> () in
             print(error)
+            self.result = TestResult(test: self, success: false, error:TestResult.Error(description: error.localizedDescription, workaround: "Cross your fingers and try again"))
         })
-        self.result = TestResult(test: self, success: true, error: TestResult.Error(description: "Something happened", workaround: "Cross your fingers and try again"))
+        
     }
     
     
