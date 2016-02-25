@@ -74,7 +74,17 @@ class HTTPSession {
         }
         
         if isResponseAFailure(response) {
-            failure(data: data, response: response, error:Error(code: .StatusCodeValidationFailed))
+            var failureCode: Error.Code = .StatusCodeValidationFailed
+            if let httpResponse = response as? NSHTTPURLResponse {
+                switch httpResponse.statusCode {
+                    
+                case 301: failureCode = .StatusCodeInvalid301BadCredentials
+                case 403: failureCode = .StatusCodeInvalid403Forbidden
+                case 404: failureCode = .StatusCodeInvalid404NotFound
+                default: failureCode = .StatusCodeInvalid
+                }
+            }
+            failure(data: data, response: response, error:Error(code: failureCode))
             return
         }
         
@@ -161,6 +171,10 @@ extension HTTPSession {
             case StringSerializationFailed       = -6005
             case PropertyListSerializationFailed = -6007
             case InvalidURL = -6008
+            case StatusCodeInvalid = -7000
+            case StatusCodeInvalid301BadCredentials     = -7301
+            case StatusCodeInvalid403Forbidden          = -7403
+            case StatusCodeInvalid404NotFound           = -7404
             
             func localizedFailureReason() -> String {
                 switch self {
@@ -176,7 +190,15 @@ extension HTTPSession {
                 case InvalidURL:
                     return NSLocalizedString("Invalid URL for request.", comment: "InvalidURL localized error message")
                     
-                    
+                case .StatusCodeInvalid:
+                    return NSLocalizedString("Unexpected status code on answer", comment: "StatusCodeValidationFailed localized error message")
+                case .StatusCodeInvalid301BadCredentials:
+                    return NSLocalizedString("Bad credentials.", comment: "HTTP 301 erro code localized error message")
+                case .StatusCodeInvalid403Forbidden:
+                    return NSLocalizedString("Request Forbidden.", comment: "HTTP 403 erro code localized error message")
+                case .StatusCodeInvalid404NotFound:
+                    return NSLocalizedString("Not Found.", comment: "HTTP 404 erro code localized error message")
+
                 default:
                     return NSLocalizedString("Unexpected error.", comment: "Unexpected networking error.")
                 }
