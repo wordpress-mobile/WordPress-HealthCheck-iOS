@@ -18,7 +18,8 @@
 		36EFBFDBD76F59DDC592457A59A20981 /* WPXMLRPCDecoderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D4191383FF920D4FAF2AE08D5EFD517E /* WPXMLRPCDecoderDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4CF3D3EF6C6D5E1E60E7055EEF287771 /* WPXMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829869EDC78D6C610AAB54D58DFC5FF /* WPXMLRPCDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4D5E6575D465968B3C6B334B45110257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
-		520C19C6DDA40BA57D22854F03C0A0F8 /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66710F6AB3EDEF23FC7C2A61009DB264 /* TestResult.swift */; };
+		520C19C6DDA40BA57D22854F03C0A0F8 /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66710F6AB3EDEF23FC7C2A61009DB264 /* TestError.swift */; };
+		594810EA1C7FA66000F508F5 /* TestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594810E91C7FA66000F508F5 /* TestSession.swift */; };
 		5ABDF5C53003A4906A65C5E8AEA773D3 /* WPXMLRPCEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE80B2B9B9AEF68A260FA54940F0B4DA /* WPXMLRPCEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63C7EEFC54BD72BA587B19888B0C6CAC /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390241936CB9232A7E9F59333573E9D7 /* LoginInfo.swift */; };
 		6985428A5B61AA0D8EDDABCF78CEBDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */; };
@@ -116,10 +117,11 @@
 		4D3EF726455F9BC363DA7D3AE8EEE17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		57AC1F1DF3253135E7C8736CF4E38D2F /* Pods-HealthCheck_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthCheck_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		57E1FACC8FC19DCFD099E8FBB329C45A /* Converter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		594810E91C7FA66000F508F5 /* TestSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSession.swift; sourceTree = "<group>"; };
 		5F4894062365509AD4D2CA4276CE2B22 /* XMLRPCToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XMLRPCToArray.swift; sourceTree = "<group>"; };
 		5F957C1D6EE4601EEE70D76286BB9CCA /* Pods-HealthCheck_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthCheck_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6225180E0C95E25E06BCE53C5851D752 /* TestGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestGroup.swift; sourceTree = "<group>"; };
-		66710F6AB3EDEF23FC7C2A61009DB264 /* TestResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
+		66710F6AB3EDEF23FC7C2A61009DB264 /* TestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
 		6C3E13DFB1B3F1B7E03DF14076761B06 /* Pods-HealthCheck_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthCheck_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D8D92500EE848D6A971C8377D70BD8B /* Pods-HealthCheck_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HealthCheck_Tests.modulemap"; sourceTree = "<group>"; };
 		779C2AF42861C73085FFF07F15EF48A9 /* WPXMLRPC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPXMLRPC.h; path = WPXMLRPC/WPXMLRPC.h; sourceTree = "<group>"; };
@@ -301,8 +303,9 @@
 			isa = PBXGroup;
 			children = (
 				B9C3AE2ACA154B4DEA91A127E0F593FB /* Test.swift */,
+				66710F6AB3EDEF23FC7C2A61009DB264 /* TestError.swift */,
 				6225180E0C95E25E06BCE53C5851D752 /* TestGroup.swift */,
-				66710F6AB3EDEF23FC7C2A61009DB264 /* TestResult.swift */,
+				594810E91C7FA66000F508F5 /* TestSession.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -644,8 +647,9 @@
 				63C7EEFC54BD72BA587B19888B0C6CAC /* LoginInfo.swift in Sources */,
 				DAB295877F43788DED08C68D123C5F14 /* ParameterEncoding.swift in Sources */,
 				ED2C5A8F08FFC2CE6A30983838041C9B /* Test.swift in Sources */,
+				594810EA1C7FA66000F508F5 /* TestSession.swift in Sources */,
 				712725AB0A209AB336EF1D642286AB00 /* TestGroup.swift in Sources */,
-				520C19C6DDA40BA57D22854F03C0A0F8 /* TestResult.swift in Sources */,
+				520C19C6DDA40BA57D22854F03C0A0F8 /* TestError.swift in Sources */,
 				FB82F4B0D5EAF75FDA8698ED30AE65E3 /* TestXMLRPCAllMethods.swift in Sources */,
 				21503FDECFB005B82BDBA846135BD0A8 /* XMLRPCParserErrors.swift in Sources */,
 				81DF3BA1ED34A0E36A1878FD73550B78 /* XMLRPCSession.swift in Sources */,

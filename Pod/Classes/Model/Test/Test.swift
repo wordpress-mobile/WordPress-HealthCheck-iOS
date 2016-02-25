@@ -1,14 +1,16 @@
 import Foundation
 
-/// Can't bring this into the protocol for now due to limitations in how Swift handles the
+/// The handler that's executed when a test succeeds or fails.
+///
+/// - Note: Can't bring this into the protocol for now due to limitations in how Swift handles the
 /// `typealias` keyword.
 ///
 /// - Parameters:
-///     - test: convenience reference to the test that completed.
 ///     - success: whether the test failed or succeeded.  More information can be obtained from the
 ///         `result` property.
+///     - error: the error found during the execution of the test, or `nil` if no error was found.
 ///
-public typealias TestCompletionHandler = (test: Test, success: Bool) -> ()
+public typealias TestCompletionHandler = (success: Bool, error: TestError?) -> ()
 
 /// Defined a single test object.
 ///
@@ -29,14 +31,7 @@ public protocol Test : AnyObject {
     /// This will be called when the test needs to be executed.
     ///
     /// - Parameters:
-    ///     - onComplete: the block that will be executed when the test run completes.
+    ///     - onCompletion: the block that will be executed when the test run completes.
     ///
-    func run(onComplete: TestCompletionHandler);
-
-    // MARK: - Test result information
-
-    /// Contains information about the last test result.  This will be set by the parent group to
-    /// `nil` before running a new round of tests.
-    ///
-    var result: TestResult? { set get }
+    func run(onCompletion onCompletion: TestCompletionHandler);
 }

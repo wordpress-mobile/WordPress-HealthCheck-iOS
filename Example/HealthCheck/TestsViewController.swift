@@ -4,8 +4,6 @@ import UIKit
 
 class ExampleTest : Test {
     
-    var result: TestResult? = nil
-    
     func name() -> String {
         return "First test"
     }
@@ -14,10 +12,10 @@ class ExampleTest : Test {
         return "First test description"
     }
     
-    func run(onComplete: TestCompletionHandler)
+    func run(onCompletion onCompletion: TestCompletionHandler)
     {
         sleep(1)
-        onComplete(test: self, success: true)
+        onCompletion(success: true, error: nil)
     }
 }
 
@@ -39,6 +37,10 @@ class TestsViewController : UITableViewController {
         testGroups.append(demoTestGroup)
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return testGroups.count
     }
@@ -58,6 +60,7 @@ class TestsViewController : UITableViewController {
         cell.textLabel?.text = test.name()
         cell.detailTextLabel?.text = test.description()
         cell.accessoryType = .None
+        cell.accessoryView = nil
         
         return cell
     }

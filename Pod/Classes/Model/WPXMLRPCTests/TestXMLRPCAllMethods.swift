@@ -3,8 +3,6 @@ import Foundation
 
 public class TestXMLRPCAllMethods: Test
 {
-    public var result:TestResult?
-    
     var session: XMLRPCSession
     
     public init(siteURL: NSURL, user: String? = nil, password: String? = nil) {
@@ -19,14 +17,16 @@ public class TestXMLRPCAllMethods: Test
         return "Tries to connect to the server to see if the XML-RPC returns a response"
     }
     
-    public func run(onComplete: TestCompletionHandler) {
+    public func run(onCompletion onCompletion: TestCompletionHandler) {
         session.listMethods({ (array) -> () in
             print(array)
-            onComplete(test: self, success: true);
-            self.result = TestResult(test: self, success: true, error: nil)
+            onCompletion(success: true, error: nil);
         }, failure:  { (error) -> () in
             print(error)
-            self.result = TestResult(test: self, success: false, error:TestResult.Error(description: error.localizedDescription, workaround: "Cross your fingers and try again"))
+            
+            let error = TestError(reason: error.localizedDescription, proposedFix: "Cross your fingers and try again", technicalDetails: "Do not collect $200")
+            
+            onCompletion(success: false, error: error)
         })
         
     }
