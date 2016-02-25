@@ -51,7 +51,6 @@
                                 </variation>
                                 <connections>
                                     <action selector="startTouchUpInside" destination="vXZ-lx-hvc" eventType="touchUpInside" id="U14-1i-ckk"/>
-                                    <segue destination="PDV-oO-UOM" kind="show" id="FWA-rK-bcL"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qHq-vz-f5n">
@@ -150,6 +149,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Q0D-t3-I5y"/>
+                    <connections>
+                        <outlet property="hostTextView" destination="Jxq-uN-NQq" id="fz7-sT-hz0"/>
+                        <outlet property="passwordTextView" destination="zij-KQ-5Hu" id="xXD-ry-qc5"/>
+                        <outlet property="userTextView" destination="hod-rH-cCv" id="aBR-xK-87p"/>
+                        <segue destination="PDV-oO-UOM" kind="show" identifier="ShowTestsViewController" id="peE-gN-9qd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

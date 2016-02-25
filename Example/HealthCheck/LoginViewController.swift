@@ -9,28 +9,34 @@ class LoginViewController: UIViewController {
     @IBOutlet private var passwordTextView: UITextField!
     @IBOutlet private var userTextView: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    // MARK: - Login info
+    
+    private var loginInfo: LoginInfo?
+    
+    // MARK: - IBActions
     
     @IBAction func startTouchUpInside() {
         
-        guard let hostname = hostTextView.text,
-            let username = userTextView.text,
-            let password = passwordTextView.text else
+        guard let hostname = hostTextView.text where hostname != "",
+            let username = userTextView.text where username != "",
+            let password = passwordTextView.text where password != "" else
         {
-            // TODO: at some point we should show an error message here...
+            loginInfo = nil
             return
         }
         
-        let loginInfo = LoginInfo(host: hostname, username: username, password: password)
+        self.loginInfo = LoginInfo(host: hostname, username: username, password: password)
         
+        performSegueWithIdentifier("ShowTestsViewController", sender: self)
+    }
+    
+    // MARK: - Preparing for segues
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let testsViewController = segue.destinationViewController as! TestsViewController
+        
+        testsViewController.loginInfo = loginInfo
     }
 }
 
