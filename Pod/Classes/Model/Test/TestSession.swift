@@ -7,10 +7,11 @@ import Foundation
 public class TestSession {
     
     public typealias GroupCompletionHandler = (index: Int, success: Bool) -> ()
+    public typealias TestCompletionHandler = (groupIndex: Int, testIndex: Int, success: Bool, error: TestError?) -> ()
     
     // MARK - Tests
     
-    let testGroups: [TestGroup]
+    public let testGroups: [TestGroup]
     
     // MARK: - Initializers
     
@@ -18,13 +19,13 @@ public class TestSession {
     {
         self.testGroups = testGroups
     }
-    
+
     // MARK: - Running the tests
-    
+
     /// Execute this method to run all tests.
     ///
     public func runAll(
-        onTestCompletion onTestCompletion: TestGroup.TestCompletionHandler,
+        onTestCompletion onTestCompletion: TestCompletionHandler,
         onGroupCompletion: GroupCompletionHandler)
     {
         runAll(
@@ -40,21 +41,25 @@ public class TestSession {
     ///     - index: the index of the first element in the `testGroups` array to run.
     ///
     private func runAll(
-        startingAtIndex index: Int,
-        onTestCompletion: TestGroup.TestCompletionHandler,
-        onGroupCompletion: GroupCompletionHandler) {
+        startingAtIndex groupIndex: Int,
+        onTestCompletion: TestCompletionHandler,
+        onGroupCompletion: GroupCompletionHandler)
+    {
+        assert(groupIndex < testGroups.count)
         
-        assert(index < testGroups.count)
+        let privateTestCompletionHandler = {(testIndex: Int, success: Bool, error: TestError?) -> () in
+            onTestCompletion(groupIndex: groupIndex, testIndex: testIndex, success: success, error: error)
+        }
         
         let privateGroupCompletionHandler = {[weak self] (success: Bool) -> () in
             guard let strongSelf = self else {
                 return
             }
             
-            onGroupCompletion(index: index, success: success)
+            onGroupCompletion(index: groupIndex, success: success)
             
             if success {
-                let nextIndex = index + 1
+                let nextIndex = groupIndex + 1
                 
                 if nextIndex < strongSelf.testGroups.count {
                     strongSelf.runAll(
@@ -65,8 +70,8 @@ public class TestSession {
             }
         }
         
-        testGroups[index].runAll(
-            onTestCompletion: onTestCompletion,
+        testGroups[groupIndex].runAll(
+            onTestCompletion: privateTestCompletionHandler,
             onGroupCompletion: privateGroupCompletionHandler)
     }
 }

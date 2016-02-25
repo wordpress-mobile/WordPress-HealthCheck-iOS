@@ -21,7 +21,7 @@ class ExampleTest : Test {
 
 class TestsViewController : UITableViewController {
     
-    private var testGroups = [TestGroup]()
+    private var testSession: TestSession!
     
     /// The login info this VC will use for its tests.
     ///
@@ -30,23 +30,32 @@ class TestsViewController : UITableViewController {
     var loginInfo: LoginInfo!
     
     override func viewDidLoad() {
+        
         let firstTest = ExampleTest()
         let tests: [Test] = [firstTest]
         let demoTestGroup = TestGroup(name: "XMLRPC", tests: tests)
         
-        testGroups.append(demoTestGroup)
+        testSession = TestSession(testGroups: [demoTestGroup])
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+        
+        /*
+        testSession.runAll(onTestCompletion: { (index, success, error) -> () in
+            
+            }) { (index, success) -> () in
+                
+        }
+*/
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return testGroups.count
+        return testSession.testGroups.count
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return testGroups[section].tests.count
+        return testSession.testGroups[section].tests.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -55,7 +64,7 @@ class TestsViewController : UITableViewController {
         let groupIndex = indexPath.section
         let testIndex = indexPath.row
         
-        let test = testGroups[groupIndex].tests[testIndex]
+        let test = testSession.testGroups[groupIndex].tests[testIndex]
         
         cell.textLabel?.text = test.name()
         cell.detailTextLabel?.text = test.description()
