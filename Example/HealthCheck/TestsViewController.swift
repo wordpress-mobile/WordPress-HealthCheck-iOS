@@ -4,6 +4,8 @@ import UIKit
 
 class ExampleTest : Test {
     
+    var lastResult: TestResult?
+    
     func name() -> String {
         return "First test"
     }
@@ -15,6 +17,7 @@ class ExampleTest : Test {
     func run(onCompletion onCompletion: TestCompletionHandler)
     {
         sleep(1)
+        lastResult = TestResult(success: true, error: nil)
         onCompletion(success: true, error: nil)
     }
 }
@@ -41,13 +44,19 @@ class TestsViewController : UITableViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        /*
-        testSession.runAll(onTestCompletion: { (index, success, error) -> () in
+        testSession.runAll(onTestCompletion: {[weak self] (groupIndex, testIndex, success, error) -> () in
+            guard let strongSelf = self else {
+                return
+            }
             
-            }) { (index, success) -> () in
-                
+            if (success) {
+                strongSelf.markTestSucceeded(groupIndex: groupIndex, testIndex: testIndex)
+            } else {
+                strongSelf.markTestFailed(groupIndex: groupIndex, testIndex: testIndex, error: error)
+            }
+        }) { (index, success) -> () in
+            // We do nothing now for groups that complete
         }
-*/
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -72,5 +81,19 @@ class TestsViewController : UITableViewController {
         cell.accessoryView = nil
         
         return cell
+    }
+    
+    // MARK: - Processing test results
+    
+    private func markTestSucceeded(groupIndex groupIndex: Int, testIndex: Int) {
+        let indexPath = NSIndexPath(forRow: testIndex, inSection: groupIndex)
+        let cell = self.tableView.cellForRowAtIndexPath(indexPath)
+        
+        if let _ = cell {
+            
+        }
+    }
+    
+    private func markTestFailed(groupIndex groupIndex: Int, testIndex: Int, error: TestError?) {
     }
 }
