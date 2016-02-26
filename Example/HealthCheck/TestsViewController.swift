@@ -77,23 +77,42 @@ class TestsViewController : UITableViewController {
         
         cell.textLabel?.text = test.name()
         cell.detailTextLabel?.text = test.description()
-        cell.accessoryType = .None
-        cell.accessoryView = nil
+        
+        //updateCellWithResult(cell, result: TestResult)
         
         return cell
     }
     
     // MARK: - Processing test results
     
+    private func imageForResult(result: TestResult) -> UIImage {
+        if result.success {
+            return UIImage(named: "checkmark")!
+        } else {
+            return UIImage(named: "cross")!
+        }
+    }
+    
     private func markTestSucceeded(groupIndex groupIndex: Int, testIndex: Int) {
         let indexPath = NSIndexPath(forRow: testIndex, inSection: groupIndex)
         let cell = self.tableView.cellForRowAtIndexPath(indexPath)
         
-        if let _ = cell {
-            
+        if let cell = cell {
+            //cell.accessoryView
         }
     }
     
     private func markTestFailed(groupIndex groupIndex: Int, testIndex: Int, error: TestError?) {
+    }
+    
+    private func updateCellWithResult(cell: UITableViewCell, result: TestResult?) {
+        if let result = result {
+            let image = imageForResult(result)
+            let imageView = UIImageView(image: image)
+            
+            cell.accessoryView = imageView
+        } else {
+            cell.accessoryView = nil
+        }
     }
 }
