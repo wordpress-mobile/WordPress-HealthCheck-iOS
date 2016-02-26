@@ -17,6 +17,12 @@ public class TestGroup {
     /// The tests in this group.
     ///
     public let tests: [Test]
+    
+    /// The last result of running this test group.
+    ///
+    /// - Note: Call `reset()` to set this field to `nil`.
+    ///
+    private(set) var lastResult: TestGroupResult?
 
     /// The test group name
     ///
@@ -80,6 +86,18 @@ public class TestGroup {
         
         tests[index].run(onCompletion: privateTestCompletionHandler)
     }
+    
+    // MARK: - State reset
+    
+    func reset() {
+        self.lastResult = nil
+        
+        for test in tests {
+            test.lastResult = nil
+        }
+    }
+    
+    // MARK: - Misc logic
     
     /// Convenience method to check if an index matches that of the last test in the group.
     ///

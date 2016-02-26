@@ -34,4 +34,8 @@ public protocol Test : AnyObject {
     ///     - onCompletion: the block that will be executed when the test run completes.
     ///
     func run(onCompletion onCompletion: TestCompletionHandler);
+    
+    // MARK: - Test results
+    
+    var lastResult: TestResult? { set get }
 }

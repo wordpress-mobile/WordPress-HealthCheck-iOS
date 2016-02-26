@@ -1,9 +1,14 @@
-//
-//  TestGroupResult.swift
-//  Pods
-//
-//  Created by Diego E. Rey Mendez on 2/25/16.
-//
-//
-
 import Foundation
+
+/// Storage for test group results.
+///
+public class TestGroupResult {
+    
+    /// The result of the test.
+    ///
+    public let success: Bool
+    
+    public init(success: Bool) {
+        self.success = success
+    }
+}
