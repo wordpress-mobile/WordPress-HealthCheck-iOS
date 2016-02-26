@@ -16,6 +16,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* TestAllMethodsCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* TestAllMethodsCall.swift */; };
 		C46D4FF793C493ADC2E517F7 /* Pods_HealthCheck_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3E004C6815C2EC32A0BFE3 /* Pods_HealthCheck_Example.framework */; };
+		FFFB385B1C7FD04F00E064D0 /* TestXMLRPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38591C7FD00D00E064D0 /* TestXMLRPCConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7C3E004C6815C2EC32A0BFE3 /* Pods_HealthCheck_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5524F36DA762801B804335 /* Pods_HealthCheck_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7CE1C3CB52ADFA6F9DC8FE /* Pods-HealthCheck_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthCheck_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthCheck_Example/Pods-HealthCheck_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFFB38591C7FD00D00E064D0 /* TestXMLRPCConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestXMLRPCConnection.swift; sourceTree = "<group>"; };
 		FFFDDC2BDB41FB258E6B9873 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* TestAllMethodsCall.swift */,
+				FFFB38591C7FD00D00E064D0 /* TestXMLRPCConnection.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* TestAllMethodsCall.swift in Sources */,
+				FFFB385B1C7FD04F00E064D0 /* TestXMLRPCConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

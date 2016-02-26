@@ -12,7 +12,7 @@ public class TestXMLRPCAllMethods: Test
     }
     
     public func name() -> String {
-        return "Test if XMLRPC is there"
+        return "Test if XMLRPC list methods has all avaible methods that the app needs to use."
     }
     
     public func description() -> String {
@@ -34,7 +34,10 @@ public class TestXMLRPCAllMethods: Test
             }
             
             print(error)
-            let error = TestError(reason: error.localizedDescription, proposedFix: "Cross your fingers and try again", technicalDetails: "Do not collect $200")
+            
+            let error = TestError(reason: error.localizedDescription,
+                proposedFix: "Fix the connection error before trying to run this test again.",
+                technicalDetails: "It was not possible to get an asnwer from listMethods call. Plese check the error details and fix the connection")
             
             strongSelf.lastResult = TestResult(success: false, error: error)
             onCompletion(success: false, error: error)
