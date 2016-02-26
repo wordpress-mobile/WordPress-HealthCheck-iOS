@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* TestAllMethodsCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* TestAllMethodsCall.swift */; };
+		742BD1821C80A1C00015AE78 /* TestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742BD1811C80A1C00015AE78 /* TestDetailViewController.swift */; };
 		C46D4FF793C493ADC2E517F7 /* Pods_HealthCheck_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3E004C6815C2EC32A0BFE3 /* Pods_HealthCheck_Example.framework */; };
 		FFFB385B1C7FD04F00E064D0 /* TestXMLRPCConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFB38591C7FD00D00E064D0 /* TestXMLRPCConnection.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		607FACE51AFB9204008FA782 /* HealthCheck_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthCheck_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* TestAllMethodsCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAllMethodsCall.swift; sourceTree = "<group>"; };
+		742BD1811C80A1C00015AE78 /* TestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDetailViewController.swift; sourceTree = "<group>"; };
 		79A19019E1EF45828B093E14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7C3E004C6815C2EC32A0BFE3 /* Pods_HealthCheck_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5524F36DA762801B804335 /* Pods_HealthCheck_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthCheck_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* LoginViewController.swift */,
 				5931AF1F1C7E68E800337168 /* TestsViewController.swift */,
+				742BD1811C80A1C00015AE78 /* TestDetailViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -368,6 +371,7 @@
 				5931AF201C7E68E800337168 /* TestsViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* LoginViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				742BD1821C80A1C00015AE78 /* TestDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
