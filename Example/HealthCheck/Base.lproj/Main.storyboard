@@ -203,136 +203,111 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zC-Bi-J0d">
-                                <rect key="frame" x="20" y="72" width="93" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="93" id="3sA-9O-xh5"/>
-                                    <constraint firstAttribute="height" constant="21" id="RUU-Ee-ZbW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQ7-gX-xV3">
-                                <rect key="frame" x="20" y="141" width="140" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="AbG-Ng-OKf"/>
-                                    <constraint firstAttribute="width" constant="140" id="hKJ-qX-vrN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awesome Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgX-Jb-DhJ">
-                                <rect key="frame" x="20" y="101" width="560" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="iIf-A4-TfL"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The bestest test evar." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PI6-7S-Etj">
-                                <rect key="frame" x="20" y="170" width="560" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Iqk-Gd-8ej"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Reason:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5x-YE-uGo">
-                                <rect key="frame" x="20" y="220" width="111" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ivt-Ew-5sy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GLk-ye-bgT">
-                                <rect key="frame" x="20" y="249" width="560" height="63"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="KQa-Aj-64y"/>
-                                    <constraint firstAttribute="height" constant="63" id="vsZ-8W-cb3"/>
-                                </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Proposed Fix:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsc-0g-mlu">
-                                <rect key="frame" x="20" y="336" width="157" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="D4j-7I-8oy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b6y-SF-lNh">
-                                <rect key="frame" x="20" y="365" width="560" height="63"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="MAv-zs-WTc"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="Oy2-Wf-Kcp"/>
-                                </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Technical Details:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9i-1g-2QE">
-                                <rect key="frame" x="20" y="453" width="190" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="9DD-Xd-KxG"/>
-                                    <constraint firstAttribute="width" constant="190" id="A0B-6i-Qoa"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IGo-er-tlU">
-                                <rect key="frame" x="20" y="482" width="560" height="63"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="wfP-0M-zmj"/>
-                                </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vs7-7e-zuX">
+                                <rect key="frame" x="20" y="70" width="560" height="530"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="iiI-6d-I7x">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="21"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zC-Bi-J0d">
+                                                <rect key="frame" x="0.0" y="0.0" width="255" height="21"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awesome Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgX-Jb-DhJ">
+                                                <rect key="frame" x="255" y="0.0" width="306" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="MbP-pO-Czw">
+                                        <rect key="frame" x="0.0" y="31" width="560" height="21"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQ7-gX-xV3">
+                                                <rect key="frame" x="0.0" y="0.0" width="256" height="21"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The bestest test evar." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PI6-7S-Etj">
+                                                <rect key="frame" x="256" y="0.0" width="304" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Error Reason:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5x-YE-uGo">
+                                        <rect key="frame" x="0.0" y="61" width="560" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgj-S0-PBN">
+                                        <rect key="frame" x="0.0" y="92" width="560" height="61"/>
+                                        <string key="text">Bacon ipsum dolor amet shank bresaola pastrami, pork loin andouille pork belly spare ribs filet mignon corned beef t-bone shoulder doner drumstick jerky rump.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Error Proposed Fix:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsc-0g-mlu">
+                                        <rect key="frame" x="0.0" y="163" width="560" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaC-5F-Aqo">
+                                        <rect key="frame" x="0.0" y="193" width="560" height="82"/>
+                                        <string key="text">Bacon ipsum dolor amet shank bresaola pastrami, pork loin andouille pork belly spare ribs filet mignon corned beef t-bone shoulder doner drumstick jerky rump. Chicken sausage chuck hamburger venison drumstick pork ribeye meatloaf. Picanha t-bone salami flank.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Error Technical Details:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9i-1g-2QE">
+                                        <rect key="frame" x="0.0" y="285" width="560" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giV-3u-uAw">
+                                        <rect key="frame" x="0.0" y="315" width="560" height="82"/>
+                                        <string key="text">Bacon ipsum dolor amet shank bresaola pastrami, pork loin andouille pork belly spare ribs filet mignon corned beef t-bone shoulder doner drumstick jerky rump. Chicken sausage chuck hamburger venison drumstick pork ribeye meatloaf.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" verticalCompressionResistancePriority="250" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GIf-8l-fV8">
+                                        <rect key="frame" x="0.0" y="407" width="560" height="124"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="b6y-SF-lNh" firstAttribute="top" secondItem="bsc-0g-mlu" secondAttribute="bottom" constant="8" symbolic="YES" id="233-HN-7Xv"/>
-                            <constraint firstItem="JQ7-gX-xV3" firstAttribute="top" secondItem="fgX-Jb-DhJ" secondAttribute="bottom" constant="19" id="3ni-qf-SrM"/>
-                            <constraint firstItem="PI6-7S-Etj" firstAttribute="top" secondItem="JQ7-gX-xV3" secondAttribute="bottom" constant="8" symbolic="YES" id="5Nv-kL-T2W"/>
-                            <constraint firstItem="b6y-SF-lNh" firstAttribute="leading" secondItem="bsc-0g-mlu" secondAttribute="leading" id="7wI-hi-J3B"/>
-                            <constraint firstItem="fgX-Jb-DhJ" firstAttribute="top" secondItem="4zC-Bi-J0d" secondAttribute="bottom" constant="8" symbolic="YES" id="C5o-L2-U9j"/>
-                            <constraint firstItem="fgX-Jb-DhJ" firstAttribute="trailing" secondItem="PI6-7S-Etj" secondAttribute="trailing" id="DTq-yD-b4q"/>
-                            <constraint firstItem="IGo-er-tlU" firstAttribute="leading" secondItem="y9i-1g-2QE" secondAttribute="leading" id="JsB-gH-nbP"/>
-                            <constraint firstItem="GLk-ye-bgT" firstAttribute="top" secondItem="o5x-YE-uGo" secondAttribute="bottom" constant="8" symbolic="YES" id="KYA-fr-jKc"/>
-                            <constraint firstItem="IGo-er-tlU" firstAttribute="top" secondItem="y9i-1g-2QE" secondAttribute="bottom" constant="8" symbolic="YES" id="NCD-yf-2i0"/>
-                            <constraint firstItem="4zC-Bi-J0d" firstAttribute="top" secondItem="Id4-6u-oV8" secondAttribute="bottom" constant="8" symbolic="YES" id="VLM-4f-mkH"/>
-                            <constraint firstItem="JQ7-gX-xV3" firstAttribute="leading" secondItem="fgX-Jb-DhJ" secondAttribute="leading" id="Wkh-T3-KVO"/>
-                            <constraint firstItem="PI6-7S-Etj" firstAttribute="leading" secondItem="JQ7-gX-xV3" secondAttribute="leading" id="bnb-tj-HqT"/>
-                            <constraint firstItem="IGo-er-tlU" firstAttribute="trailing" secondItem="b6y-SF-lNh" secondAttribute="trailing" id="e6p-QL-sX0"/>
-                            <constraint firstItem="y9i-1g-2QE" firstAttribute="top" secondItem="b6y-SF-lNh" secondAttribute="bottom" constant="25" id="fEL-sY-lfK"/>
-                            <constraint firstItem="y9i-1g-2QE" firstAttribute="leading" secondItem="b6y-SF-lNh" secondAttribute="leading" id="jtn-5N-qY0"/>
-                            <constraint firstItem="bsc-0g-mlu" firstAttribute="top" secondItem="GLk-ye-bgT" secondAttribute="bottom" constant="24" id="kO0-HS-XaU"/>
-                            <constraint firstItem="PI6-7S-Etj" firstAttribute="trailing" secondItem="GLk-ye-bgT" secondAttribute="trailing" id="o73-Sd-eie"/>
-                            <constraint firstItem="GLk-ye-bgT" firstAttribute="leading" secondItem="o5x-YE-uGo" secondAttribute="leading" id="ph2-Vq-Oga"/>
-                            <constraint firstItem="fgX-Jb-DhJ" firstAttribute="leading" secondItem="4zC-Bi-J0d" secondAttribute="leading" id="prG-e2-xaO"/>
-                            <constraint firstItem="PI6-7S-Etj" firstAttribute="trailing" secondItem="1Uj-g7-csa" secondAttribute="trailingMargin" id="sf3-Yu-aYF"/>
-                            <constraint firstItem="y9i-1g-2QE" firstAttribute="leading" secondItem="1Uj-g7-csa" secondAttribute="leadingMargin" id="tVH-XH-6gF"/>
-                            <constraint firstItem="b6y-SF-lNh" firstAttribute="trailing" secondItem="GLk-ye-bgT" secondAttribute="trailing" id="vTC-Ib-jD4"/>
-                            <constraint firstItem="o5x-YE-uGo" firstAttribute="top" secondItem="PI6-7S-Etj" secondAttribute="bottom" constant="29" id="vY4-sy-W9e"/>
-                            <constraint firstItem="PI6-7S-Etj" firstAttribute="leading" secondItem="o5x-YE-uGo" secondAttribute="leading" id="viu-OA-Sg5"/>
-                            <constraint firstItem="GLk-ye-bgT" firstAttribute="leading" secondItem="bsc-0g-mlu" secondAttribute="leading" id="yem-uP-c1y"/>
+                            <constraint firstItem="vs7-7e-zuX" firstAttribute="trailing" secondItem="1Uj-g7-csa" secondAttribute="trailingMargin" id="7mV-3M-peN"/>
+                            <constraint firstItem="vs7-7e-zuX" firstAttribute="top" secondItem="Id4-6u-oV8" secondAttribute="bottom" constant="6" id="EcN-GU-YUF"/>
+                            <constraint firstItem="vs7-7e-zuX" firstAttribute="leading" secondItem="1Uj-g7-csa" secondAttribute="leadingMargin" id="KUQ-PS-Ue6"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="vs7-7e-zuX" secondAttribute="bottom" id="vMx-WU-G98"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ErrorProposedFixDetail" destination="eaC-5F-Aqo" id="iAS-7l-wjV"/>
+                        <outlet property="ErrorProposedFixLabel" destination="bsc-0g-mlu" id="4tH-F9-71n"/>
+                        <outlet property="ErrorReasonDetail" destination="wgj-S0-PBN" id="vGc-Wf-RWR"/>
+                        <outlet property="ErrorReasonLabel" destination="o5x-YE-uGo" id="zfp-JB-yHs"/>
+                        <outlet property="ErrorTechnicalDetailsDetail" destination="giV-3u-uAw" id="VLg-lu-t6L"/>
+                        <outlet property="ErrorTechnicalDetailsLabel" destination="y9i-1g-2QE" id="n9M-rP-JZb"/>
+                        <outlet property="TestDescriptionDetail" destination="PI6-7S-Etj" id="HcE-Bg-RK5"/>
+                        <outlet property="TestDescriptionLabel" destination="JQ7-gX-xV3" id="sRi-Vw-yDw"/>
+                        <outlet property="TestNameDetail" destination="fgX-Jb-DhJ" id="rna-nR-9aT"/>
+                        <outlet property="TestNameLabel" destination="4zC-Bi-J0d" id="ZRL-eq-ugf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u4E-2X-cR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
