@@ -19,10 +19,19 @@ class TestDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let test = test {
+            TestNameDetail.text = test.name()
+            TestDescriptionDetail.text = test.description()
+            if let error = test.lastResult?.error {
+                ErrorReasonDetail.text = error.reason
+                ErrorProposedFixDetail.text = error.proposedFix
+                ErrorTechnicalDetailsDetail.text = error.technicalDetails
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 }
