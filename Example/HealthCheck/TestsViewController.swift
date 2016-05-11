@@ -115,4 +115,13 @@ class TestsViewController : UITableViewController {
             cell.accessoryView = nil
         }
     }
+    
+    // MARK: - Preparing for segues
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let testDetailViewController = segue.destinationViewController as! TestDetailViewController
+        
+        testDetailViewController.test = testSession.testGroups[0].tests[0]
+    }
 }
